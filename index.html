@@ -7,39 +7,19 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<header class="header-style">
-	<div align="right"><img src="img/logo_ar.png" width="250px">
+
+<body ng-app="app" class="body-style">
+	<header class="header-style">
+		<div align="right"><img src="img/logo_ar.png" width="250px">
+		</div>
+	</header>
+	<div ui-view>
 	</div>
-</header>
-
-<body class="body-style">
-
-<div id="conteneur"> 
-   <div class="parent"> 
-      <div class="face cote6">6</div> 
-      <div class="face cote5">5</div> 
-      <div class="face cote4">4</div> 
-      <div class="face cote3">3</div> 
-      <div class="face cote2">2</div> 
-      <div class="face cote1">1</div> 
-   </div> 
-</div>
-<div id="conteneur"> 
-   <div class="parent"> 
-      <div class="face cote6">6</div> 
-      <div class="face cote5">5</div> 
-      <div class="face cote4">4</div> 
-      <div class="face cote3">3</div> 
-      <div class="face cote2">2</div> 
-      <div class="face cote1">1</div> 
-   </div> 
-</div>
-
-
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="bower_components/angular/angular.min.js"></script>
 	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="app/app.js"></script>
 </body>
 
 </html>
