@@ -39,3 +39,15 @@
 	opacity: 1;
 	border: solid 1px black;
 }
+
+#cube1.ng-hide {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: bounceOut;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: bounceOut;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-moz-animation-name: bounceOut;
+}
