@@ -16,7 +16,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 app.controller('homeCtrl', ['$scope', function ($scope) {
-
+	$scope.inMotion = false;
 }]);
 
 app.controller('infoCtrl', ['$scope', function ($scope) {
