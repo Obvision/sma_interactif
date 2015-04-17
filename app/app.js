@@ -5,12 +5,12 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state('home', {
 			url: "/home",
-			templateUrl: "/app/partials/home.html",
+			templateUrl: "app/partials/home.html",
 			controller: "homeCtrl"
 		})
 		.state('info', {
 			url: "/info",
-			templateUrl: "/app/partials/info.html",
+			templateUrl: "app/partials/info.html",
 			controller: "infoCtrl"
 		})
 });
