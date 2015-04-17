@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*! Copyright (c) 2015 Amine Griche */
+
+.body-style {
+	background: url('../img/bg2.png');
+	background-size: 100%;
+	background-repeat:no-repeat; 
+	background-position-y: 40%;
+}
+
+.header-style {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
