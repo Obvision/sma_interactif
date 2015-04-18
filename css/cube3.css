@@ -1,7 +1,8 @@
 #cube3-container {
 	position: absolute;
 	top: 36%;
-	right: 34%;
+	right: 0;
+	left: 0;
 }
 
 #cube3 {
@@ -11,15 +12,15 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	animation: AnimCube 5s linear infinite;
+	animation: AnimCube3 15s linear infinite;
 	transform-style: preserve-3d;
-	-webkit-animation: AnimCube 15s linear infinite;
+	-webkit-animation: AnimCube3 20s linear infinite;
 	-webkit-transform-style: preserve-3d;
-	-moz-animation: AnimCube 15s linear infinite;
+	-moz-animation: AnimCube3 15s linear infinite;
 	-moz-transform-style: preserve-3d;
-	-o-animation: AnimCube 15s linear infinite;
+	-o-animation: AnimCube3 15s linear infinite;
 	-o-transform-style: preserve-3d;
-	-ms-animation: AnimCube 15s linear infinite;
+	-ms-animation: AnimCube3 15s linear infinite;
 	-ms-transform-style: preserve-3d;
 }
 
@@ -78,7 +79,7 @@
 	-ms-transform: translateZ(-100px);
 }
 
-@keyframes AnimCube {
+@keyframes AnimCube3 {
 	from {}
 	to {
 		transform-origin: 50% 50%;
@@ -86,15 +87,15 @@
 	}
 }
 
-@-webkit-keyframes AnimCube {
+@-webkit-keyframes AnimCube3 {
 	from {}
 	to {
-		-webkit-transform-origin: 50% 50%;
-		-webkit-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+		-webkit-transform-origin: 10% 10%;
+		-webkit-transform: rotateZ(-180deg) rotateY(180deg) rotateX(180deg);
 	}
 }
 
-@-moz-keyframes AnimCube {
+@-moz-keyframes AnimCube3 {
 	from {}
 	to {
 		-moz-transform-origin: 50% 50%;
@@ -102,7 +103,7 @@
 	}
 }
 
-@-o-keyframes AnimCube {
+@-o-keyframes AnimCube3 {
 	from {}
 	to {
 		-o-transform-origin: 50% 50%;
@@ -110,7 +111,7 @@
 	}
 }
 
-@-ms-keyframes AnimCube {
+@-ms-keyframes AnimCube3 {
 	from {}
 	to {
 		-ms-transform-origin: 50% 50%;

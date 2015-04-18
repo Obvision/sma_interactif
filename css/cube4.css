@@ -1,7 +1,7 @@
 #cube4-container {
 	position: absolute;
 	top: 65%;
-	right: 5%;
+	right: 25%;
 }
 
 #cube4 {
@@ -13,7 +13,7 @@
 	margin-right: auto;
 	animation: AnimCube4 5s linear infinite;
 	transform-style: preserve-3d;
-	-webkit-animation: AnimCube4 15s linear infinite;
+	-webkit-animation: AnimCube4 27s linear infinite;
 	-webkit-transform-style: preserve-3d;
 	-moz-animation: AnimCube4 15s linear infinite;
 	-moz-transform-style: preserve-3d;
@@ -89,8 +89,8 @@
 @-webkit-keyframes AnimCube4 {
 	from {}
 	to {
-		-webkit-transform-origin: 50% 50%;
-		-webkit-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+		-webkit-transform-origin: 10% 10%;
+		-webkit-transform: rotateZ(-360deg) rotateY(-360deg) rotateX(-360deg);
 	}
 }
 
