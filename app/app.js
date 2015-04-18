@@ -17,11 +17,12 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 
 
 app.controller('coreCtrl', ['$scope', function ($scope) {
-    $scope.setFullScreen = function () {
-        var elem = document.getElementById("app");
-        req = elem.requestFullScreen || elem.webkitRequestFullScreen || elem.mozRequestFullScreen;
-        req.call(elem);
-    }
+    //    $scope.setFullScreen = function () {
+    //        var elem = document.getElementById("app");
+    //        req = elem.requestFullScreen || elem.webkitRequestFullScreen || elem.mozRequestFullScreen;
+    //        req.call(elem);
+    //    }
+
 }]);
 
 
