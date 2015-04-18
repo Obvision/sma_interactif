@@ -1,7 +1,8 @@
 #cube3-container {
     position: absolute;
     top: 36%;
-    right: 34%;
+    right: 0;
+    left: 0;
 }
 
 #cube3 {
@@ -81,7 +82,7 @@
     -ms-transform: translateZ(-100px);
 }
 
-@keyframes AnimeCube3 {
+@keyframes AnimCube3 {
     from {}
     to {
         transform-origin: 50% 50%;
@@ -89,15 +90,15 @@
     }
 }
 
-@-webkit-keyframes AnimeCube3 {
+@-webkit-keyframes AnimCube3 {
     from {}
     to {
-        -webkit-transform-origin: 50% 50%;
-        -webkit-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+        -webkit-transform-origin: 10% 10%;
+        -webkit-transform: rotateZ(-180deg) rotateY(180deg) rotateX(180deg);
     }
 }
 
-@-moz-keyframes AnimeCube3 {
+@-moz-keyframes AnimCube3 {
     from {}
     to {
         -moz-transform-origin: 50% 50%;
@@ -105,7 +106,7 @@
     }
 }
 
-@-o-keyframes AnimeCube3 {
+@-o-keyframes AnimCube3 {
     from {}
     to {
         -o-transform-origin: 50% 50%;
@@ -113,7 +114,7 @@
     }
 }
 
-@-ms-keyframes AnimeCube3 {
+@-ms-keyframes AnimCube3 {
     from {}
     to {
         -ms-transform-origin: 50% 50%;

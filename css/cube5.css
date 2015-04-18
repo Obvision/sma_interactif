@@ -1,7 +1,8 @@
 #cube5-container {
     position: absolute;
     top: 75%;
-    left: 36%;
+    left: 0;
+    right: 0;
 }
 
 #cube5 {
@@ -93,7 +94,7 @@
     from {}
     to {
         -webkit-transform-origin: 50% 50%;
-        -webkit-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+        -webkit-transform: rotateZ(180deg) rotateY(360deg) rotateX(360deg);
     }
 }
 
