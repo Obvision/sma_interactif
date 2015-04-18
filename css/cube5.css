@@ -28,16 +28,14 @@
 }
 
 #cube5 .cote1 {
-	background-image: url(../img/face-1.png);
-    background-color: #3bd6e4;
+    background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%,#65ecff 100%);
     border-color:#3bd6e4;
     background-size: 100%;
 	z-index: 10;
 }
 
 #cube5 .cote2 {
-    background-image: url(../img/face-2.png);
-    background-color: #3bd6e4;
+    background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%,#65ecff 100%);
     border-color:#3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
@@ -48,7 +46,7 @@
 }
 
 #cube5 .cote3 {
-    background-color: #3bd6e4;
+    background: -webkit-linear-gradient(bottom, #1eb8ba 0%,#65ecff 100%);
     border-color:#3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
@@ -59,8 +57,7 @@
 }
 
 #cube5 .cote4 {
-    background-image: url(../img/face-4.png);
-    background-color: #3bd6e4;
+    background: url(../img/face-4.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%,#65ecff 100%);
     border-color:#3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
@@ -71,7 +68,7 @@
 }
 
 #cube5 .cote5 {
-    background-color: #3bd6e4;
+    background: -webkit-linear-gradient(bottom, #1eb8ba 0%,#65ecff 100%);
     border-color:#3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
@@ -82,7 +79,7 @@
 }
 
 #cube5 .cote6 {
-    background-color: #3bd6e4;
+    background: -webkit-linear-gradient(bottom, #1eb8ba 0%,#65ecff 100%);
     border-color:#3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-100px);

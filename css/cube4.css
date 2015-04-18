@@ -27,16 +27,14 @@
 }
 
 #cube4 .cote1 {
-	background-image: url(../img/face-1.png);
-    border-color:#53a508;
-    background-color: #53a508;
+    background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
     background-size: 100%;
+    border-color:#53a508;
 	z-index: 10;
 }
 
 #cube4 .cote2 {
-    background-image: url(../img/face-2.png);
-    background-color: #53a508;
+    background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
     border-color:#53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
@@ -47,7 +45,7 @@
 }
 
 #cube4 .cote3 {
-    background-color: #53a508;
+    background: -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
     border-color:#53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
@@ -58,8 +56,7 @@
 }
 
 #cube4 .cote4 {
-    background-image: url(../img/face-4.png);
-    background-color: #53a508;
+    background: url(../img/face-3.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
     border-color:#53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
@@ -70,7 +67,7 @@
 }
 
 #cube4 .cote5 {
-    background-color: #53a508;
+    background: -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
     border-color:#53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
@@ -81,7 +78,7 @@
 }
 
 #cube4 .cote6 {
-    background-color: #53a508;
+    background: -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
     border-color:#53a508;
 	background-size: 100%;
 	transform: translateZ(-100px);

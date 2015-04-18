@@ -29,16 +29,14 @@
 }
 
 #cube1 .cote1 {
-	background-image: url(../img/face-1.png);
-    background-color: #ECECEC;
+    background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #b0b2b3 0%,#f9f9f9 100%);
     border-color:#ECECEC;
     background-size: 100%;
 	z-index: 10;
 }
 
 #cube1 .cote2 {
-	background-image: url(../img/face-2.png);
-    background-color: #ECECEC;
+	background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #b0b2b3 0%,#f9f9f9 100%);
     border-color:#ECECEC;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
@@ -49,7 +47,7 @@
 }
 
 #cube1 .cote3 {
-    background-color: #ECECEC;
+    background: -webkit-linear-gradient(bottom, #b0b2b3 0%,#f9f9f9 100%);
     border-color:#ECECEC;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
@@ -60,8 +58,7 @@
 }
 
 #cube1 .cote4 {
-	background-image: url(../img/face-4.png);
-	background-color: #ECECEC;
+	background: url(../img/face-4.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #b0b2b3 0%,#f9f9f9 100%);
     border-color:#ECECEC;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
@@ -72,7 +69,7 @@
 }
 
 #cube1 .cote5 {
-	background-color: #ECECEC;
+	background: -webkit-linear-gradient(bottom, #b0b2b3 0%,#f9f9f9 100%);
     border-color:#ECECEC;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
@@ -83,7 +80,7 @@
 }
 
 #cube1 .cote6 {
-	background-color: #ECECEC;
+	background: -webkit-linear-gradient(bottom, #b0b2b3 0%,#f9f9f9 100%);
     border-color:#ECECEC;
 	background-size: 100%;
 	transform: translateZ(-100px);
