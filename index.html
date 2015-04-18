@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html id="app">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
 
 <body ng-app="app" class="body-style" ng-controller="coreCtrl">
     <header class="header-style">
-        <div align="right" ng-click="toggleFullScreen"><img src="img/logo_ar.png" width="350px">
+        <div align="right"><img src="img/logo_ar.png" width="350px">
         </div>
     </header>
     <div ui-view class="main-view">
@@ -27,8 +27,9 @@
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="bower_components/ngAnimate.js"></script>
-    <script src="bower_components/angular-fullscreen.js"></script>
-<script src="bower_components/angular-touch.js"></script>    <script src="app/app.js"></script>
+    <script src="bower_components/jquery.dragon.js"></script>
+    <script src="bower_components/angular-touch.js"></script>
+    <script src="app/app.js"></script>
 </body>
 <footer class="footer">
     <img src="img/partenairesSMA.jpg" width="80%">
