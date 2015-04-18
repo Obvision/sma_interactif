@@ -121,11 +121,22 @@
 .main-view {
 	height: 900px;
 	position: absolute;
-	top: 0;
+	top: 100px;
 	bottom: 0;
 	right: 0;
 	left: 0;
 	margin: auto;
+}
+
+.info-container {
+	margin-top: 80px;
+	width: 70%;
+	height: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
 }
 
 .main-view.ng-enter {
@@ -153,4 +164,19 @@
 
 .main-nav {
 	float: left;
+	padding: 35px 0;
+}
+
+.return-btn {
+	background: url('../img/return.png');
+	width: 64px;
+	height: 64px;
+	background-size: 100% 100%;
+	opacity: 0.7;
+	transition: .4s;
+}
+
+.return-btn:hover,
+.return-btn:focus {
+	opacity: 1;
 }
