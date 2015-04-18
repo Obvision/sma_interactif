@@ -15,15 +15,15 @@
 }
 
 #cube3.inMotionCube3 {
-    animation: AnimeCube3 5s linear infinite;
+    animation: AnimCube3 5s linear infinite;
     transform-style: preserve-3d;
-    -webkit-animation: AnimeCube3 15s linear infinite;
+    -webkit-animation: AnimCube3 15s linear infinite;
     -webkit-transform-style: preserve-3d;
-    -moz-animation: AnimeCube3 15s linear infinite;
+    -moz-animation: AnimCube3 15s linear infinite;
     -moz-transform-style: preserve-3d;
-    -o-animation: AnimeCube3 15s linear infinite;
+    -o-animation: AnimCube3 15s linear infinite;
     -o-transform-style: preserve-3d;
-    -ms-animation: AnimeCube3 15s linear infinite;
+    -ms-animation: AnimCube3 15s linear infinite;
     -ms-transform-style: preserve-3d;
 }
 
