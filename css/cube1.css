@@ -1,29 +1,31 @@
 #cube1-container {
-	position: absolute;
-	top: 7%;
-	left: 37%;
+    position: absolute;
+    top: 4%;
+    left: 0;
+    right: 0;
+    margin: auto
 }
 
 #cube1 {
-	position: relative;
-	width: 100px;
-	height: 100px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	animation: AnimCube1 5s linear infinite;
-	transform-style: preserve-3d;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#cube1.inMotion {
-	-webkit-animation: AnimCube1 15s linear infinite;
-	-webkit-transform-style: preserve-3d;
-	-moz-animation: AnimCube1 15s linear infinite;
-	-moz-transform-style: preserve-3d;
-	-o-animation: AnimCube1 15s linear infinite;
-	-o-transform-style: preserve-3d;
-	-ms-animation: AnimCube1 15s linear infinite;
-	-ms-transform-style: preserve-3d;
+#cube1.inMotionCube1 {
+    animation: AnimCube1 5s linear infinite;
+    transform-style: preserve-3d;
+    -webkit-animation: AnimCube1 15s linear infinite;
+    -webkit-transform-style: preserve-3d;
+    -moz-animation: AnimCube1 15s linear infinite;
+    -moz-transform-style: preserve-3d;
+    -o-animation: AnimCube1 15s linear infinite;
+    -o-transform-style: preserve-3d;
+    -ms-animation: AnimCube1 15s linear infinite;
+    -ms-transform-style: preserve-3d;
 }
 
 #cube1 .cote1 {
@@ -92,41 +94,41 @@
 }
 
 @keyframes AnimCube1 {
-	from {}
-	to {
-		transform-origin: 50% 50%;
-		transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
-	}
+    from {}
+    to {
+        transform-origin: 50% 50%;
+        transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
+    }
 }
 
 @-webkit-keyframes AnimCube1 {
-	from {}
-	to {
-		-webkit-transform-origin: 50% 50%;
-		-webkit-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
-	}
+    from {}
+    to {
+        -webkit-transform-origin: 50% 50%;
+        -webkit-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
+    }
 }
 
 @-moz-keyframes AnimCube1 {
-	from {}
-	to {
-		-moz-transform-origin: 50% 50%;
-		-moz-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
-	}
+    from {}
+    to {
+        -moz-transform-origin: 50% 50%;
+        -moz-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
+    }
 }
 
 @-o-keyframes AnimCube1 {
-	from {}
-	to {
-		-o-transform-origin: 50% 50%;
-		-o-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
-	}
+    from {}
+    to {
+        -o-transform-origin: 50% 50%;
+        -o-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
+    }
 }
 
 @-ms-keyframes AnimCube1 {
-	from {}
-	to {
-		-ms-transform-origin: 50% 50%;
-		-ms-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
-	}
+    from {}
+    to {
+        -ms-transform-origin: 50% 50%;
+        -ms-transform: rotateZ(180deg) rotateY(-180deg) rotateX(-180deg);
+    }
 }
