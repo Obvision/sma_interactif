@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ui.router', 'ngAnimate']);
+var app = angular.module('app', ['ui.router', 'ngAnimate', 'FBAngular', 'ngTouch']);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/home");
@@ -14,6 +14,17 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             controller: "infoCtrl"
         })
 });
+
+
+app.controller('coreCtrl', ['$scope', 'Fullscreen', function ($scope, Fullscreen) {
+    $scope.toggleFullScreen = function () {
+        console.info('iuuihuih');
+        if (Fullscreen.isEnabled())
+            Fullscreen.cancel();
+        else
+            Fullscreen.all();
+    }
+}]);
 
 app.controller('homeCtrl', ['$scope', function ($scope) {
     $scope.inMotionCube1 = false;
@@ -35,6 +46,7 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
             $scope.inMotionCube5 = true;
         }
     }
+
 }]);
 
 app.controller('infoCtrl', ['$scope', function ($scope) {
