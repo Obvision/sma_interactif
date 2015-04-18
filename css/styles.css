@@ -119,9 +119,9 @@
 }
 
 .main-view {
-	height: 900px;
+	height: 800px;
 	position: absolute;
-	top: 100px;
+	top: 0;
 	bottom: 0;
 	right: 0;
 	left: 0;
@@ -129,12 +129,14 @@
 }
 
 .info-container {
-	margin-top: 80px;
 	width: 70%;
-	height: 70%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 5px;
 }
@@ -164,7 +166,25 @@
 
 .main-nav {
 	float: left;
-	padding: 35px 0;
+	padding-top: 50px;
+}
+
+.main-nav.ng-hide {
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 2s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeOut;
+	-moz-animation-name: fadeOut;
+}
+
+.main-nav.ng-hide-remove {
+	-webkit-animation-duration: 5s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 5s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
 }
 
 .return-btn {
@@ -174,6 +194,7 @@
 	background-size: 100% 100%;
 	opacity: 0.7;
 	transition: .4s;
+	cursor: pointer;
 }
 
 .return-btn:hover,
