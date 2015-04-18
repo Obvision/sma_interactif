@@ -1,41 +1,41 @@
 #cube4-container {
-    position: absolute;
-    top: 65%;
-    right: 25%;
+	position: absolute;
+	top: 60%;
+	right: 23%;
 }
 
 #cube4 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #cube4.inMotionCube4 {
-    animation: AnimCube4 5s linear infinite;
-    transform-style: preserve-3d;
-    -webkit-animation: AnimCube4 15s linear infinite;
-    -webkit-transform-style: preserve-3d;
-    -moz-animation: AnimCube4 15s linear infinite;
-    -moz-transform-style: preserve-3d;
-    -o-animation: AnimCube4 15s linear infinite;
-    -o-transform-style: preserve-3d;
-    -ms-animation: AnimCube4 15s linear infinite;
-    -ms-transform-style: preserve-3d;
+	animation: AnimCube4 5s linear infinite;
+	transform-style: preserve-3d;
+	-webkit-animation: AnimCube4 15s linear infinite;
+	-webkit-transform-style: preserve-3d;
+	-moz-animation: AnimCube4 15s linear infinite;
+	-moz-transform-style: preserve-3d;
+	-o-animation: AnimCube4 15s linear infinite;
+	-o-transform-style: preserve-3d;
+	-ms-animation: AnimCube4 15s linear infinite;
+	-ms-transform-style: preserve-3d;
 }
 
 #cube4 .cote1 {
-    background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
-    background-size: 100%;
-    border-color:#53a508;
+	background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%, #96e04a 100%);
+	background-size: 100%;
+	border-color: #53a508;
 	z-index: 10;
 }
 
 #cube4 .cote2 {
-    background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
-    border-color:#53a508;
+	background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%, #96e04a 100%);
+	border-color: #53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
 	-webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
@@ -45,8 +45,8 @@
 }
 
 #cube4 .cote3 {
-    background: -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
-    border-color:#53a508;
+	background: -webkit-linear-gradient(bottom, #52a209 0%, #96e04a 100%);
+	border-color: #53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
 	-webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
@@ -56,8 +56,8 @@
 }
 
 #cube4 .cote4 {
-    background: url(../img/face-3.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
-    border-color:#53a508;
+	background: url(../img/face-3.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #52a209 0%, #96e04a 100%);
+	border-color: #53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
 	-webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
@@ -67,8 +67,8 @@
 }
 
 #cube4 .cote5 {
-    background: -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
-    border-color:#53a508;
+	background: -webkit-linear-gradient(bottom, #52a209 0%, #96e04a 100%);
+	border-color: #53a508;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
 	-webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
@@ -78,8 +78,8 @@
 }
 
 #cube4 .cote6 {
-    background: -webkit-linear-gradient(bottom, #52a209 0%,#96e04a 100%);
-    border-color:#53a508;
+	background: -webkit-linear-gradient(bottom, #52a209 0%, #96e04a 100%);
+	border-color: #53a508;
 	background-size: 100%;
 	transform: translateZ(-100px);
 	-webkit-transform: translateZ(-100px);
@@ -89,41 +89,41 @@
 }
 
 @keyframes AnimCube4 {
-    from {}
-    to {
-        transform-origin: 50% 50%;
-        transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		transform-origin: 50% 50%;
+		transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
 }
 
 @-webkit-keyframes AnimCube4 {
-    from {}
-    to {
-        -webkit-transform-origin: 10% 10%;
-        -webkit-transform: rotateZ(-360deg) rotateY(-360deg) rotateX(-360deg);
-    }
+	from {}
+	to {
+		-webkit-transform-origin: 10% 10%;
+		-webkit-transform: rotateZ(-180deg) rotateY(-180deg) rotateX(-180deg);
+	}
 }
 
 @-moz-keyframes AnimCube4 {
-    from {}
-    to {
-        -moz-transform-origin: 50% 50%;
-        -moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		-moz-transform-origin: 50% 50%;
+		-moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
 }
 
 @-o-keyframes AnimCube4 {
-    from {}
-    to {
-        -o-transform-origin: 50% 50%;
-        -o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		-o-transform-origin: 50% 50%;
+		-o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
 }
 
 @-ms-keyframes AnimCube4 {
-    from {}
-    to {
-        -ms-transform-origin: 50% 50%;
-        -ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		-ms-transform-origin: 50% 50%;
+		-ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
 }

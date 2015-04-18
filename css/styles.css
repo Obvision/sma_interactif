@@ -2,118 +2,148 @@
 /*! Copyright (c) 2015 Amine Griche */
 
 .body-style {
-    background: url('../img/bg2.png');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center 30%;
+	background: url('../img/bg2.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center 30%;
 }
 
 .header-style {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
 }
 
 .cube {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin: 0px auto;
-    -webkit-perspective: 2800px;
-    -webkit-perspective-origin: 50% 50%;
-    -moz-perspective: 2800px;
-    -moz-perspective-origin: 50% 50%;
-    -o-perspective: 2800px;
-    -o-perspective-origin: 50% 50%;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	margin: 0px auto;
+	-webkit-perspective: 2800px;
+	-webkit-perspective-origin: 50% 50%;
+	-moz-perspective: 2800px;
+	-moz-perspective-origin: 50% 50%;
+	-o-perspective: 2800px;
+	-o-perspective-origin: 50% 50%;
 }
 
 .face {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    line-height: 100px;
-    text-align: center;
-    font-size: 80px;
-    opacity: 1;
-    border: solid 1px black;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	line-height: 100px;
+	text-align: center;
+	font-size: 80px;
+	opacity: 1;
+	border: solid 1px black;
 }
 
 #cube1.ng-hide {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: bounceOut;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: bounceOut;
-    -moz-animation-duration: 1s;
-    -moz-animation-fill-mode: both;
-    -moz-animation-name: bounceOut;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: bounceOut;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: bounceOut;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-moz-animation-name: bounceOut;
 }
 
 #cube2.ng-hide {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: bounceOut;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: bounceOut;
-    -moz-animation-duration: 1s;
-    -moz-animation-fill-mode: both;
-    -moz-animation-name: bounceOut;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: bounceOut;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: bounceOut;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-moz-animation-name: bounceOut;
 }
 
 #cube3.ng-hide {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: bounceOut;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: bounceOut;
-    -moz-animation-duration: 1s;
-    -moz-animation-fill-mode: both;
-    -moz-animation-name: bounceOut;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: bounceOut;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: bounceOut;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-moz-animation-name: bounceOut;
 }
 
 #cube4.ng-hide {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: bounceOut;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: bounceOut;
-    -moz-animation-duration: 1s;
-    -moz-animation-fill-mode: both;
-    -moz-animation-name: bounceOut;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: bounceOut;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: bounceOut;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-moz-animation-name: bounceOut;
 }
 
 #cube5.ng-hide {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: bounceOut;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: bounceOut;
-    -moz-animation-duration: 1s;
-    -moz-animation-fill-mode: both;
-    -moz-animation-name: bounceOut;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: bounceOut;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: bounceOut;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-moz-animation-name: bounceOut;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 .footer img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.7;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 5px solid #ddd;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.7;
+	border-radius: 15px 15px 0px 0px;
+	border-bottom: 5px solid #ddd;
 }
+
+.main-view {
+	height: 900px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.main-view.ng-enter {
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 2s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+}
+
+.main-view.ng-leave {
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 2s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeOutUp;
+	-moz-animation-name: fadeOutUp;
+}
+
+.main-view.ng-leave {}
