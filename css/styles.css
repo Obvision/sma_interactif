@@ -146,4 +146,11 @@
 	-moz-animation-name: fadeOutUp;
 }
 
-.main-view.ng-leave {}
+.logo-container {
+	float: right;
+	width: auto;
+}
+
+.main-nav {
+	float: left;
+}

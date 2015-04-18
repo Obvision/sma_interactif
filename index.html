@@ -17,8 +17,11 @@
 
 <body ng-app="app" class="body-style">
 	<header class="header-style">
-		<div align="right"><img src="img/logo_ar.png" width="350px">
+		<div class="logo-container" align="right"><img src="img/logo_ar.png" width="350px">
 		</div>
+		<nav class="main-nav" ng-if="$state.is('info')">
+			test
+		</nav>
 	</header>
 	<div ui-view class="main-view">
 	</div>
@@ -27,10 +30,11 @@
 	<script src="bower_components/angular/angular.min.js"></script>
 	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 	<script src="bower_components/ngAnimate.js"></script>
-    <script src="bower_components/jquery.dragon.js"></script>
+	<script src="bower_components/jquery.dragon.js"></script>
 	<script src="app/app.js"></script>
 </body>
 <footer class="footer">
 	<img src="img/partenairesSMA.jpg" width="80%">
 </footer>
+
 </html>
