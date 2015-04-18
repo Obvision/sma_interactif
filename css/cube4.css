@@ -27,58 +27,68 @@
 }
 
 #cube4 .cote1 {
-    background-color: silver;
-    z-index: 10;
+	background-image: url(../img/face-1.png);
+    border-color:#53a508;
+    background-color: #53a508;
+    background-size: 100%;
+	z-index: 10;
 }
 
 #cube4 .cote2 {
-    background-image: url(../img/gris-1.png);
-    background-size: 100%;
-    transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-    -webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-    -moz-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-    -o-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-    -ms-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    background-image: url(../img/face-2.png);
+    background-color: #53a508;
+    border-color:#53a508;
+	background-size: 100%;
+	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+	-webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+	-moz-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+	-o-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+	-ms-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
 }
 
 #cube4 .cote3 {
-    background-image: url(../img/gris-1.png);
-    background-size: 100%;
-    transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-    -webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-    -moz-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-    -o-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-    -ms-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    background-color: #53a508;
+    border-color:#53a508;
+	background-size: 100%;
+	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+	-webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+	-moz-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+	-o-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+	-ms-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
 }
 
 #cube4 .cote4 {
-    background-image: url(../img/gris-1.png);
-    background-size: 100%;
-    transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-    -webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-    -moz-transform: translateZ(-50px) translateY(50px) rotateX(90deg);
-    -o-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-    -ms-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    background-image: url(../img/face-4.png);
+    background-color: #53a508;
+    border-color:#53a508;
+	background-size: 100%;
+	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+	-webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+	-moz-transform: translateZ(-50px) translateY(50px) rotateX(90deg);
+	-o-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+	-ms-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
 }
 
 #cube4 .cote5 {
-    background-image: url(../img/bg2.png);
-    background-size: 100%;
-    transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-    -webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-    -moz-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-    -o-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-    -ms-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    background-color: #53a508;
+    border-color:#53a508;
+	background-size: 100%;
+	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+	-webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+	-moz-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+	-o-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+	-ms-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
 }
 
 #cube4 .cote6 {
-    background-image: url(../img/bg2.png);
-    background-size: 100%;
-    transform: translateZ(-100px);
-    -webkit-transform: translateZ(-100px);
-    -moz-transform: translateZ(-100px);
-    -o-transform: translateZ(-100px);
-    -ms-transform: translateZ(-100px);
+    background-color: #53a508;
+    border-color:#53a508;
+	background-size: 100%;
+	transform: translateZ(-100px);
+	-webkit-transform: translateZ(-100px);
+	-moz-transform: translateZ(-100px);
+	-o-transform: translateZ(-100px);
+	-ms-transform: translateZ(-100px);
 }
 
 @keyframes AnimCube4 {
