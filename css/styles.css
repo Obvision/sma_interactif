@@ -1,10 +1,6 @@
 @charset "UTF-8";
 /*! Copyright (c) 2015 Amine Griche */
 
-body {
-	height: 1200px;
-}
-
 .body-style {
 	background: url('../img/bg2.png');
 	background-size: 100% auto;
