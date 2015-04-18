@@ -24,12 +24,17 @@
 }
 
 #cube3 .cote1 {
-	background-color: silver;
+	background-image: url(../img/face-1.png);
+    background-color: #ff9c14;
+    border-color:#ff9c14;
+    background-size: 100%;
 	z-index: 10;
 }
 
 #cube3 .cote2 {
-	background-image: url(../img/gris-1.png);
+    background-image: url(../img/face-2.png);
+    background-color: #ff9c14;
+    border-color:#ff9c14;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
 	-webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
@@ -39,7 +44,8 @@
 }
 
 #cube3 .cote3 {
-	background-image: url(../img/gris-1.png);
+    background-color: #ff9c14;
+    border-color:#ff9c14;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
 	-webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
@@ -49,7 +55,9 @@
 }
 
 #cube3 .cote4 {
-	background-image: url(../img/gris-1.png);
+    background-image: url(../img/face-4.png);
+    background-color: #ff9c14;
+    border-color:#ff9c14;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
 	-webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
@@ -59,7 +67,8 @@
 }
 
 #cube3 .cote5 {
-	background-image: url(../img/bg2.png);
+    background-color: #ff9c14;
+    border-color:#ff9c14;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
 	-webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
@@ -69,7 +78,8 @@
 }
 
 #cube3 .cote6 {
-	background-image: url(../img/bg2.png);
+    background-color: #ff9c14;
+    border-color:#ff9c14;
 	background-size: 100%;
 	transform: translateZ(-100px);
 	-webkit-transform: translateZ(-100px);
