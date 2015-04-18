@@ -6,7 +6,7 @@
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 .header-style {
@@ -50,4 +50,21 @@
 	-moz-animation-duration: 1s;
 	-moz-animation-fill-mode: both;
 	-moz-animation-name: bounceOut;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
 }
