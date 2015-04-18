@@ -12,9 +12,12 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#cube5.inMotionCube5 {
 	animation: AnimCube5 5s linear infinite;
 	transform-style: preserve-3d;
-	-webkit-animation: AnimCube5 35s linear infinite;
+	-webkit-animation: AnimCube5 15s linear infinite;
 	-webkit-transform-style: preserve-3d;
 	-moz-animation: AnimCube5 15s linear infinite;
 	-moz-transform-style: preserve-3d;

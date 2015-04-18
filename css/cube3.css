@@ -1,120 +1,123 @@
 #cube3-container {
-	position: absolute;
-	top: 36%;
-	right: 0;
-	left: 0;
+    position: absolute;
+    top: 36%;
+    right: 0;
+    left: 0;
 }
 
 #cube3 {
-	position: relative;
-	width: 100px;
-	height: 100px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	animation: AnimCube3 15s linear infinite;
-	transform-style: preserve-3d;
-	-webkit-animation: AnimCube3 20s linear infinite;
-	-webkit-transform-style: preserve-3d;
-	-moz-animation: AnimCube3 15s linear infinite;
-	-moz-transform-style: preserve-3d;
-	-o-animation: AnimCube3 15s linear infinite;
-	-o-transform-style: preserve-3d;
-	-ms-animation: AnimCube3 15s linear infinite;
-	-ms-transform-style: preserve-3d;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cube3.inMotionCube3 {
+    animation: AnimCube3 5s linear infinite;
+    transform-style: preserve-3d;
+    -webkit-animation: AnimCube3 15s linear infinite;
+    -webkit-transform-style: preserve-3d;
+    -moz-animation: AnimCube3 15s linear infinite;
+    -moz-transform-style: preserve-3d;
+    -o-animation: AnimCube3 15s linear infinite;
+    -o-transform-style: preserve-3d;
+    -ms-animation: AnimCube3 15s linear infinite;
+    -ms-transform-style: preserve-3d;
 }
 
 #cube3 .cote1 {
-	background-color: silver;
-	z-index: 10;
+    background-color: silver;
+    z-index: 10;
 }
 
 #cube3 .cote2 {
-	background-image: url(../img/gris-1.png);
-	background-size: 100%;
-	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-moz-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-o-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-ms-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    background-image: url(../img/gris-1.png);
+    background-size: 100%;
+    transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -moz-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -o-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -ms-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
 }
 
 #cube3 .cote3 {
-	background-image: url(../img/gris-1.png);
-	background-size: 100%;
-	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-moz-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-o-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-ms-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    background-image: url(../img/gris-1.png);
+    background-size: 100%;
+    transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -moz-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -o-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -ms-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
 }
 
 #cube3 .cote4 {
-	background-image: url(../img/gris-1.png);
-	background-size: 100%;
-	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-	-webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-	-moz-transform: translateZ(-50px) translateY(50px) rotateX(90deg);
-	-o-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-	-ms-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    background-image: url(../img/gris-1.png);
+    background-size: 100%;
+    transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    -webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    -moz-transform: translateZ(-50px) translateY(50px) rotateX(90deg);
+    -o-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    -ms-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
 }
 
 #cube3 .cote5 {
-	background-image: url(../img/bg2.png);
-	background-size: 100%;
-	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-moz-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-o-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-ms-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    background-image: url(../img/bg2.png);
+    background-size: 100%;
+    transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -moz-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -o-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -ms-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
 }
 
 #cube3 .cote6 {
-	background-image: url(../img/bg2.png);
-	background-size: 100%;
-	transform: translateZ(-100px);
-	-webkit-transform: translateZ(-100px);
-	-moz-transform: translateZ(-100px);
-	-o-transform: translateZ(-100px);
-	-ms-transform: translateZ(-100px);
+    background-image: url(../img/bg2.png);
+    background-size: 100%;
+    transform: translateZ(-100px);
+    -webkit-transform: translateZ(-100px);
+    -moz-transform: translateZ(-100px);
+    -o-transform: translateZ(-100px);
+    -ms-transform: translateZ(-100px);
 }
 
 @keyframes AnimCube3 {
-	from {}
-	to {
-		transform-origin: 50% 50%;
-		transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        transform-origin: 50% 50%;
+        transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
 
 @-webkit-keyframes AnimCube3 {
-	from {}
-	to {
-		-webkit-transform-origin: 10% 10%;
-		-webkit-transform: rotateZ(-180deg) rotateY(180deg) rotateX(180deg);
-	}
+    from {}
+    to {
+        -webkit-transform-origin: 10% 10%;
+        -webkit-transform: rotateZ(-180deg) rotateY(180deg) rotateX(180deg);
+    }
 }
 
 @-moz-keyframes AnimCube3 {
-	from {}
-	to {
-		-moz-transform-origin: 50% 50%;
-		-moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        -moz-transform-origin: 50% 50%;
+        -moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
 
 @-o-keyframes AnimCube3 {
-	from {}
-	to {
-		-o-transform-origin: 50% 50%;
-		-o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        -o-transform-origin: 50% 50%;
+        -o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
 
 @-ms-keyframes AnimCube3 {
-	from {}
-	to {
-		-ms-transform-origin: 50% 50%;
-		-ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        -ms-transform-origin: 50% 50%;
+        -ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
