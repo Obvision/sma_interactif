@@ -1,5 +1,7 @@
 #cube2-container {
 	position: absolute;
+	top: 35%;
+	left: 30%
 }
 
 #cube2 {
