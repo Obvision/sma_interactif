@@ -1,13 +1,16 @@
 #cube1-container {
 	position: absolute;
-	top: 10%;
-	left: 45%;
+	top: 7%;
+	left: 37%;
 }
 
 #cube1 {
 	position: relative;
 	width: 100px;
 	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	animation: AnimCube1 5s linear infinite;
 	transform-style: preserve-3d;
 }
