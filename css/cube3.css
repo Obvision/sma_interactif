@@ -1,3 +1,9 @@
+#cube3-container {
+	position: absolute;
+	top: 35%;
+	right: 40%;
+}
+
 #cube3 {
 	position: relative;
 	width: 100px;
