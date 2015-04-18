@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ui.router', 'ngAnimate']);
+var app = angular.module('app', ['ui.router', 'ngAnimate', 'ngTouch']);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 	$urlRouterProvider.otherwise("/home");
@@ -29,6 +29,11 @@ app.directive('drag', function () {
 	}
 });
 
+app.controller('coreCtrl', ['$scope', function ($scope) {
+
+}]);
+
+
 app.controller('homeCtrl', ['$scope', '$state', function ($scope, $state) {
 	$scope.inMotionCube1 = false;
 	$scope.inMotionCube2 = false;
@@ -40,20 +45,9 @@ app.controller('homeCtrl', ['$scope', '$state', function ($scope, $state) {
 		$state.go('info', {
 			cube: cube
 		})
-
-		//        if (cube == 1) {
-		//            $scope.inMotionCube1 = true;
-		//        } else if (cube == 2) {
-		//            $scope.inMotionCube2 = true;
-		//        } else if (cube == 3) {
-		//            $scope.inMotionCube3 = true;
-		//        } else if (cube == 4) {
-		//            $scope.inMotionCube4 = true;
-		//        } else if (cube == 5) {
-		//            $scope.inMotionCube5 = true;
-		//        }
 	}
 }]);
+
 
 app.controller('infoCtrl', ['$scope', function ($scope) {
 
