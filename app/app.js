@@ -15,6 +15,15 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         })
 });
 
+app.directive('drag', function() {
+    return {
+            restrict: 'A',
+            link: function(scope, el, attrs, controller) {
+                el.dragon();
+            }
+        }
+});
+
 app.controller('homeCtrl', ['$scope', function ($scope) {
     $scope.inMotionCube1 = false;
     $scope.inMotionCube2 = false;
