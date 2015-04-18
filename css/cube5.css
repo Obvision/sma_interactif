@@ -29,16 +29,16 @@
 
 #cube5 .cote1 {
 	background-image: url(../img/face-1.png);
-    background-color: #3bd6e4;
-    border-color:#3bd6e4;
-    background-size: 100%;
+	background-color: #3bd6e4;
+	border-color: #3bd6e4;
+	background-size: 100%;
 	z-index: 10;
 }
 
 #cube5 .cote2 {
-    background-image: url(../img/face-2.png);
-    background-color: #3bd6e4;
-    border-color:#3bd6e4;
+	background-image: url(../img/face-2.png);
+	background-color: #3bd6e4;
+	border-color: #3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
 	-webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
@@ -48,8 +48,8 @@
 }
 
 #cube5 .cote3 {
-    background-color: #3bd6e4;
-    border-color:#3bd6e4;
+	background-color: #3bd6e4;
+	border-color: #3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
 	-webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
@@ -59,9 +59,9 @@
 }
 
 #cube5 .cote4 {
-    background-image: url(../img/face-4.png);
-    background-color: #3bd6e4;
-    border-color:#3bd6e4;
+	background-image: url(../img/face-4.png);
+	background-color: #3bd6e4;
+	border-color: #3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
 	-webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
@@ -71,8 +71,8 @@
 }
 
 #cube5 .cote5 {
-    background-color: #3bd6e4;
-    border-color:#3bd6e4;
+	background-color: #3bd6e4;
+	border-color: #3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
 	-webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
@@ -82,8 +82,8 @@
 }
 
 #cube5 .cote6 {
-    background-color: #3bd6e4;
-    border-color:#3bd6e4;
+	background-color: #3bd6e4;
+	border-color: #3bd6e4;
 	background-size: 100%;
 	transform: translateZ(-100px);
 	-webkit-transform: translateZ(-100px);
@@ -104,7 +104,7 @@
 	from {}
 	to {
 		-webkit-transform-origin: 50% 50%;
-		-webkit-transform: rotateZ(180deg) rotateY(360deg) rotateX(360deg);
+		-webkit-transform: rotateZ(180deg) rotateY(180deg) rotateX(-180deg);
 	}
 }
 
