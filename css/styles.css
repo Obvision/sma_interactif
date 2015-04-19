@@ -126,7 +126,7 @@ body {
 
 .main-view {
 	position: absolute;
-	top: 150px;
+	top: 200px;
 	bottom: 0;
 	right: 0;
 	left: 0;
@@ -138,12 +138,28 @@ body {
 	height: auto;
 	position: absolute;
 	top: 0;
-	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 5px;
+	padding: 50px;
+	color: #fff;
+}
+
+.info-container h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
+.info-container h2 {
+	font-size: 26px;
+}
+
+.info-container p {
+	font-size: 18px;
 }
 
 .main-view.ng-enter {
