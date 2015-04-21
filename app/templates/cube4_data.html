@@ -1,22 +1,22 @@
-<div>
-<div drag id="page-cube4-container" class="cube" ng-click="cubeClicked(3)" ng-touch="cubeClicked(3)">
-	<div id="cube4" ng-hide="inMotionCube4" ng-class="{inMotionCube4: !inMotionCube4}">
-		<div class="cote6 face"></div>
-		<div class="cote5 face"></div>
-		<div class="cote4 face"></div>
-		<div class="cote3 face"></div>
-		<div class="cote2 face"></div>
-		<div class="cote1 face"></div>
+<div ng-controller="cube4Ctrl">
+	<div drag id="page-cube4-container" class="cube" ng-click="cubeClicked(3)" ng-touch="cubeClicked(3)">
+		<div id="cube4" ng-hide="inMotionCube4" ng-class="{inMotionCube4: !inMotionCube4}">
+			<div class="cote6 face"></div>
+			<div class="cote5 face"></div>
+			<div class="cote4 face"></div>
+			<div class="cote3 face"></div>
+			<div class="cote2 face"></div>
+			<div class="cote1 face"></div>
+		</div>
 	</div>
-</div>
-	<h1>Maroc, un pays de Tolérance</h1>
-	<h2>Un modèle religieux imprégné de tolérance</h2>
-	<p>Son modèle religieux démontre avec force que traditions et islam ne s'opposent pas à la modernité et au développement de la démocratie.</p>
+	<h1 class="title" ng-show="title">Maroc, un pays de Tolérance</h1>
+	<h2 class="acc" ng-show="p1">Un modèle religieux imprégné de tolérance</h2>
+	<p class="acc" ng-show="p2">Son modèle religieux démontre avec force que traditions et islam ne s'opposent pas à la modernité et au développement de la démocratie.</p>
 
-	<h2>Les RME, une communauté ambassadrice de  notre culture</h2>
-	<p>A l’instar d’Ibn Batouta, cet explorateur marocain du 12<sup>ème</sup> siècle qui a parcouru en une vie 120 000 Kms, nos compatriotes aujourd’hui, ont émigrés vers le vaste monde créant une communauté qui est une valeur forte.</p>
-	<p>Ces explorateurs d’un autre genre partent à la découverte d’un nouveau pays et deviennent les ambassadeurs de notre culture, de nos valeurs de partage et de tolérance.</p>
-	<ul>Pour plus de détails :
+	<h2 class="acc" ng-show="p3">Les RME, une communauté ambassadrice de  notre culture</h2>
+	<p class="acc" ng-show="p4">A l’instar d’Ibn Batouta, cet explorateur marocain du 12<sup>ème</sup> siècle qui a parcouru en une vie 120 000 Kms, nos compatriotes aujourd’hui, ont émigrés vers le vaste monde créant une communauté qui est une valeur forte.</p>
+	<p class="acc" ng-show="p5">Ces explorateurs d’un autre genre partent à la découverte d’un nouveau pays et deviennent les ambassadeurs de notre culture, de nos valeurs de partage et de tolérance.</p>
+	<ul class="acc" ng-show="p6">En savoir plus:
 		<li>
 			<a href="www.marocainsdumonde.gov.ma">
             www.marocainsdumonde.gov.ma

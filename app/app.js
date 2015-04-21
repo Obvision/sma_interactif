@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ui.router', 'ngAnimate', 'ngTouch', 'ui.utils']);
+var app = angular.module('app', ['ui.router', 'ngAnimate', 'ngTouch', 'ui.utils', 'hmTouchEvents']);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 	$urlRouterProvider.otherwise("/home");
@@ -24,6 +24,9 @@ app.run(['$state', '$rootScope', function ($state, $rootScope) {
 	$rootScope.$state = $state;
 }]);
 
+app.run(function () {
+	FastClick.attach(document.body);
+});
 
 app.directive('drag', function () {
 	return {
@@ -35,9 +38,9 @@ app.directive('drag', function () {
 });
 
 app.controller('coreCtrl', ['$scope', function ($scope) {
-//	document.oncontextmenu = document.body.oncontextmenu = function () {
-//		return false;
-//	}
+	//	document.oncontextmenu = document.body.oncontextmenu = function () {
+	//		return false;
+	//	}
 }]);
 
 
