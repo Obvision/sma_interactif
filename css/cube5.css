@@ -5,6 +5,13 @@
 	right: 0;
 }
 
+#page-cube5-container {
+  	cursor: move;
+  	top: -108px;
+  	left: 43%;
+  	position: absolute;
+}
+
 #cube5 {
 	position: relative;
 	width: 100px;

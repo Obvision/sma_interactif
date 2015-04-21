@@ -1,4 +1,14 @@
-<div>
+<div id="cube1-data-container" ng-controller="cube1Ctrl">
+<div drag id="page-cube2-container" class="cube" ng-click="cubeClicked(1)" ng-touch="cubeClicked(1)">
+	<div id="cube2" ng-hide="inMotionCube2" ng-class="{inMotionCube2: !inMotionCube2}">
+		<div class="cote6 face"></div>
+		<div class="cote5 face"></div>
+		<div class="cote4 face"></div>
+		<div class="cote3 face"></div>
+		<div class="cote2 face"></div>
+		<div class="cote1 face"></div>
+	</div>
+</div>
 	<h1>Maroc, un pays où l’hospitalité révèle un Art de vivre</h1>
 	<h2>Une terre  d’hospitalité et de rencontres.</h2>
 	<p>Terre d’accueil et de rencontres, le Maroc a érigé l’hospitalité en un art de vivre. Un geste de générosité, de solidarité, de partage et de tolérance.</p>
