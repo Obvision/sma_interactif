@@ -49,7 +49,7 @@ app.controller('homeCtrl', ['$scope', '$state', function ($scope, $state) {
 	$scope.inMotionCube5 = false;
 
 	$scope.cubeClicked = function (cube) {
-		$state.go('info', {
+		$state.go('_info', {
 			cube: cube
 		})
 	}
