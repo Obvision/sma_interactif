@@ -145,7 +145,7 @@ body {
     border-radius: 5px;
     padding: 50px;
     color: #fff;
-    text-shadow: 3px 3px #000000;
+    text-shadow: 3px 3px #414141;
 }
 
 .info-container h1 {
@@ -234,4 +234,9 @@ body {
 
 .strategy {
     color: #65ecff;
+}
+
+a {
+  color: #3F9680;
+  text-decoration: underline;
 }
