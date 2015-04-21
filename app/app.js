@@ -35,7 +35,9 @@ app.directive('drag', function () {
 });
 
 app.controller('coreCtrl', ['$scope', function ($scope) {
-
+    //	document.oncontextmenu = document.body.oncontextmenu = function () {
+    //		return false;
+    //	}
 }]);
 
 

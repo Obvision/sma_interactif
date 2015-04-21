@@ -1,5 +1,5 @@
-<div id="cube1-data-container" ng-controller="cube1Ctrl">
-    <div drag id="page-cube1-container" class="cube" ng-click="cubeClicked(0)" ng-touch="cubeClicked(0)">
+<div id="cube1-data-container" ng-controller="cube1Ctrl" class="cub1-data">
+    <div drag id="page-cube1-container" class="cube">
         <div id="cube1" ng-hide="inMotionCube1" ng-class="{inMotionCube1: !inMotionCube1}">
             <div class="cote6 face"></div>
             <div class="cote5 face"></div>
@@ -30,7 +30,7 @@
 
     <div class="part" ng-show="part2">
         <h2 class="acc" ng-show="p7">Un Patrimoine matériel et immatériel, d'une grande richesse</h2>
-        <ul class="acc" ng-show="p8">Pour plus de détails :
+        <ul class="acc" ng-show="p8">Pour en savoir plus:
             <li>
                 <a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=article&id=61&Itemid=133">Le Maroc et ses sites et monuments classés</a>
             </li>
