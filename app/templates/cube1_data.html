@@ -1,4 +1,14 @@
 <div id="cube1-data-container" ng-controller="cube1Ctrl">
+<div drag id="page-cube1-container" class="cube" ng-click="cubeClicked(0)" ng-touch="cubeClicked(0)">
+	<div id="cube1" ng-hide="inMotionCube1" ng-class="{inMotionCube1: !inMotionCube1}">
+		<div class="cote6 face"></div>
+		<div class="cote5 face"></div>
+		<div class="cote4 face"></div>
+		<div class="cote3 face"></div>
+		<div class="cote2 face"></div>
+		<div class="cote1 face">1</div>
+	</div>
+</div>
 	<h1 class="title" ng-show="title">Maroc, là où la Culture inspire l’Art</h1>
 	<div class="part" ng-show="part1">
 		<p class="intro" ng-show="p1">Le Maroc est un pays où l’Art et la culture se confonde, une véritable invitation au voyage, un parfum de la rencontre qui se donne en partage sur plusieurs notes.</p>
