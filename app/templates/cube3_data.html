@@ -1,25 +1,25 @@
-<div>
-<div drag id="page-cube3-container" class="cube" ng-click="cubeClicked(2)" ng-touch="cubeClicked(2)">
-	<div id="cube3" ng-hide="inMotionCube3" ng-class="{inMotionCube3: !inMotionCube3}">
-		<div class="cote6 face"></div>
-		<div class="cote5 face"></div>
-		<div class="cote4 face"></div>
-		<div class="cote3 face"></div>
-		<div class="cote2 face"></div>
-		<div class="cote1 face"></div>
+<div ng-controller="cube3Ctrl">
+	<div drag id="page-cube3-container" class="cube" ng-click="cubeClicked(2)" ng-touch="cubeClicked(2)">
+		<div id="cube3" ng-hide="inMotionCube3" ng-class="{inMotionCube3: !inMotionCube3}">
+			<div class="cote6 face"></div>
+			<div class="cote5 face"></div>
+			<div class="cote4 face"></div>
+			<div class="cote3 face"></div>
+			<div class="cote2 face"></div>
+			<div class="cote1 face"></div>
+		</div>
 	</div>
-</div>
-	<h1>Maroc, un Pays d’Histoire</h1>
-	<h2>Un pays réceptacle des  civilisation.</h2>
-	<p>Du royaume des maures… à la romanisation puis à l’islamisation, le Maroc, est un véritable réceptacle des civilisations qui ont construit son identité plurielle.</p>
+	<h1 class="title" ng-show="title">Maroc, un Pays d’Histoire</h1>
+	<h2 class="acc" ng-show="p2">Un pays réceptacle des  civilisation.</h2>
+	<p class="acc" ng-show="p3">Du royaume des maures à la romanisation puis à l’islamisation, le Maroc, est un véritable réceptacle des civilisations qui ont construit son identité plurielle.</p>
 
-	<h2>Un pays aux composantes multiples</h2>
-	<p>C’est de ses différentes composantes amazighes, judéo-chrétiennes, arabo-musulmanes, et afro-sahariennes, que le Maroc fonde sa spécificité, sa singularité, sa diversité et la richesse de sa civilisation.</p>
+	<h2 class="acc" ng-show="p4">Un pays aux composantes multiples</h2>
+	<p class="acc" ng-show="p5">C’est de ses différentes composantes amazighes, judéo-chrétiennes, arabo-musulmanes, et afro-sahariennes, que le Maroc fonde sa spécificité, sa singularité, sa diversité et la richesse de sa civilisation.</p>
 
-	<h2>Un pays qui a connu des réformes historiques</h2>
-	<p>Situé dans une région secouée par les événements du Printemps Arabe, le Royaume a consolidé sa stabilité et sa cohésion sociale en initiant des réformes politiques et économiques majeures.</p>
-	<p>La nouvelle constitution entérine l’égalité totale entre les hommes et les femmes.</p>
-	<ul>Pour plus de détails :
+	<h2 class="acc" ng-show="p6">Un pays qui a connu des réformes historiques</h2>
+	<p class="acc" ng-show="p7">Situé dans une région secouée par les événements du Printemps Arabe, le Royaume a consolidé sa stabilité et sa cohésion sociale en initiant des réformes politiques et économiques majeures.</p>
+	<p class="acc" ng-show="p8">La nouvelle constitution entérine l’égalité totale entre les hommes et les femmes.</p>
+	<ul class="acc" ng-show="p9">En savoir plus:
 		<li>
 			<a href="http://www.maroc.ma/fr">
             http://www.maroc.ma/fr
