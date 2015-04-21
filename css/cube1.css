@@ -139,16 +139,25 @@
 	-moz-animation-name: zoomIn;
 }
 
-#cube1-data-container .p1.ng-hide-remove {
+#cube1-data-container .intro.ng-hide-remove {
 	-webkit-animation-duration: 3s;
 	-webkit-animation-fill-mode: both;
 	-moz-animation-duration: 3s;
 	-moz-animation-fill-mode: both;
-	-webkit-animation-name: fadeIn;
-	-moz-animation-name: fadeIn;
+	-webkit-animation-name: zoomIn;
+	-moz-animation-name: zoomIn;
 }
 
-#cube1-data-container .p1.ng-hide {
+#cube1-data-container .acc.ng-hide-remove {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 3s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+}
+
+#cube1-data-container .acc.ng-hide {
 	-webkit-animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
 	-moz-animation-duration: 1s;
@@ -164,4 +173,13 @@
 	-moz-animation-fill-mode: both;
 	-webkit-animation-name: fadeIn;
 	-moz-animation-name: fadeIn;
+}
+
+#cube1-data-container .part.ng-hide {
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeOut;
+	-moz-animation-name: fadeOut;
 }
