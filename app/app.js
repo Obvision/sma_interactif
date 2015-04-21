@@ -45,14 +45,8 @@ app.controller('coreCtrl', ['$scope', function ($scope) {
 
 
 app.controller('homeCtrl', ['$scope', '$state', function ($scope, $state) {
-	$scope.inMotionCube1 = false;
-	$scope.inMotionCube2 = false;
-	$scope.inMotionCube3 = false;
-	$scope.inMotionCube4 = false;
-	$scope.inMotionCube5 = false;
-
 	$scope.cubeClicked = function (cube) {
-		$state.go('_info', {
+		$state.go('info', {
 			cube: cube
 		})
 	}
