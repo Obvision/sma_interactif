@@ -307,3 +307,12 @@ li {
 	-webkit-animation-name: fadeOut;
 	-moz-animation-name: fadeOut;
 }
+
+.part.ng-hide {
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeOut;
+	-moz-animation-name: fadeOut;
+}

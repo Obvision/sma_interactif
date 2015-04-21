@@ -5,10 +5,10 @@
 }
 
 #page-cube4-container {
-  	cursor: move;
-  	top: -108px;
-  	left: 43%;
-  	position: absolute;
+	cursor: move;
+	top: -108px;
+	left: 43%;
+	position: absolute;
 }
 
 #cube4 {
@@ -133,4 +133,8 @@
 		-ms-transform-origin: 50% 50%;
 		-ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
 	}
+}
+
+#cube4-data-container h2 {
+	color: #B1EF76;
 }

@@ -1,48 +1,48 @@
 #cube2-container {
-    position: absolute;
-    top: 55%;
-    left: 30%
+	position: absolute;
+	top: 55%;
+	left: 30%
 }
 
 #page-cube2-container {
-    cursor: move;
-    top: -108px;
-    left: 43%;
-    position: absolute;
+	cursor: move;
+	top: -108px;
+	left: 43%;
+	position: absolute;
 }
 
 #cube2 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #cube2.inMotionCube2 {
-    animation: AnimeCube2 5s linear infinite;
-    transform-style: preserve-3d;
-    -webkit-animation: AnimeCube2 15s linear infinite;
-    -webkit-transform-style: preserve-3d;
-    -moz-animation: AnimeCube2 15s linear infinite;
-    -moz-transform-style: preserve-3d;
-    -o-animation: AnimeCube2 15s linear infinite;
-    -o-transform-style: preserve-3d;
-    -ms-animation: AnimeCube2 15s linear infinite;
-    -ms-transform-style: preserve-3d;
+	animation: AnimeCube2 5s linear infinite;
+	transform-style: preserve-3d;
+	-webkit-animation: AnimeCube2 15s linear infinite;
+	-webkit-transform-style: preserve-3d;
+	-moz-animation: AnimeCube2 15s linear infinite;
+	-moz-transform-style: preserve-3d;
+	-o-animation: AnimeCube2 15s linear infinite;
+	-o-transform-style: preserve-3d;
+	-ms-animation: AnimeCube2 15s linear infinite;
+	-ms-transform-style: preserve-3d;
 }
 
 #cube2 .cote1 {
-    background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #d4b22e 0%,#fff085 100%);
-    background-size: 100%;
+	background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #d4b22e 0%, #fff085 100%);
+	background-size: 100%;
 	z-index: 10;
-    border-color:#fff085;
+	border-color: #fff085;
 }
 
 #cube2 .cote2 {
-	background: -webkit-linear-gradient(bottom, #d4b22e 0%,#fff085 100%);
-    border-color:#fff085;
+	background: -webkit-linear-gradient(bottom, #d4b22e 0%, #fff085 100%);
+	border-color: #fff085;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
 	-webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
@@ -52,8 +52,8 @@
 }
 
 #cube2 .cote3 {
-    background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #d4b22e 0%,#fff085 100%);
-    border-color:#fff085;
+	background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #d4b22e 0%, #fff085 100%);
+	border-color: #fff085;
 	background-size: 100%;
 	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
 	-webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
@@ -63,8 +63,8 @@
 }
 
 #cube2 .cote4 {
-    background: url(../img/face-3.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #d4b22e 0%,#fff085 100%);
-    border-color:#fff085;
+	background: url(../img/face-3.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #d4b22e 0%, #fff085 100%);
+	border-color: #fff085;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
 	-webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
@@ -74,8 +74,8 @@
 }
 
 #cube2 .cote5 {
-	background: -webkit-linear-gradient(bottom, #d4b22e 0%,#fff085 100%);
-    border-color:#fff085;
+	background: -webkit-linear-gradient(bottom, #d4b22e 0%, #fff085 100%);
+	border-color: #fff085;
 	background-size: 100%;
 	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
 	-webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
@@ -85,8 +85,8 @@
 }
 
 #cube2 .cote6 {
-	background: -webkit-linear-gradient(bottom, #d4b22e 0%,#fff085 100%);
-    border-color:#fff085;
+	background: -webkit-linear-gradient(bottom, #d4b22e 0%, #fff085 100%);
+	border-color: #fff085;
 	background-size: 100%;
 	transform: translateZ(-100px);
 	-webkit-transform: translateZ(-100px);
@@ -96,41 +96,45 @@
 }
 
 @keyframes AnimeCube2 {
-    from {}
-    to {
-        transform-origin: 50% 50%;
-        transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		transform-origin: 50% 50%;
+		transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
 }
 
 @-webkit-keyframes AnimeCube2 {
-    from {}
-    to {
-        -webkit-transform-origin: 50% 50%;
-        -webkit-transform: rotateZ(180deg) rotateY(180deg) rotateX(180deg);
-    }
+	from {}
+	to {
+		-webkit-transform-origin: 50% 50%;
+		-webkit-transform: rotateZ(180deg) rotateY(180deg) rotateX(180deg);
+	}
 }
 
 @-moz-keyframes AnimeCube2 {
-    from {}
-    to {
-        -moz-transform-origin: 50% 50%;
-        -moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		-moz-transform-origin: 50% 50%;
+		-moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
 }
 
 @-o-keyframes AnimeCube2 {
-    from {}
-    to {
-        -o-transform-origin: 50% 50%;
-        -o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		-o-transform-origin: 50% 50%;
+		-o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
 }
 
 @-ms-keyframes AnimeCube2 {
-    from {}
-    to {
-        -ms-transform-origin: 50% 50%;
-        -ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-    }
+	from {}
+	to {
+		-ms-transform-origin: 50% 50%;
+		-ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+	}
+}
+
+#cube2-data-container h2 {
+	color: #FFF1A0;
 }
