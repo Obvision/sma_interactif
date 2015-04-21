@@ -162,7 +162,7 @@ h2 {
 	border-radius: 5px;
 	padding: 50px;
 	color: #fff;
-	text-shadow: 3px 3px #414141;
+	text-shadow: 2px 2px #272727;
 }
 
 .info-container h1 {
@@ -256,4 +256,12 @@ h2 {
 a {
 	color: #9BB9F4;
 	text-decoration: underline;
+  	background-color: rgba(253, 253, 253, 0.27);
+  	padding: 10px;
+  	border-radius: 3px;
+  	text-shadow: none;
+}
+
+li {
+  margin-top: 20px;
 }
