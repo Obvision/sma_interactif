@@ -61,7 +61,7 @@ app.controller('infoCtrl', ['$scope', '$stateParams', function ($scope, $statePa
             contentPath: 'app/templates/cube1_data.html'
   },
         {
-            title: 'Un pays ou l’hospitalité révèle un Art de vivre',
+            title: 'Maroc, un pays où l’hospitalité révèle un Art de vivre',
             contentPath: 'app/templates/cube2_data.html'
   },
         {
@@ -69,11 +69,11 @@ app.controller('infoCtrl', ['$scope', '$stateParams', function ($scope, $statePa
             contentPath: 'app/templates/cube3_data.html'
   },
         {
-            title: 'Maroc, un pays de tolérance',
+            title: 'Maroc, un pays de Tolérance',
             contentPath: 'app/templates/cube4_data.html'
   },
         {
-            title: 'Un pays moderne et  tourné vers l’avenir',
+            title: 'Maroc, un pays Moderne et tourné vers l’avenir',
             contentPath: 'app/templates/cube5_data.html'
   }
   ]
