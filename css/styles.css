@@ -22,7 +22,7 @@ body {
 	background: url('../img/bg2.png');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
-	background-position: center 30%;
+	background-position: center 45%;
 }
 
 .header-style {
@@ -162,9 +162,7 @@ h2 {
 	border-radius: 5px;
 	padding: 50px;
 	color: #fff;
-	text-shadow: 3px 3px #000000;
-	transition: .5;
-	-webkit-transition: .5;
+	text-shadow: 3px 3px #414141;
 }
 
 .info-container h1 {
@@ -253,4 +251,9 @@ h2 {
 
 .strategy {
 	color: #65ecff;
+}
+
+a {
+	color: #9BB9F4;
+	text-decoration: underline;
 }

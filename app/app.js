@@ -87,7 +87,7 @@ app.controller('_infoCtrl', ['$scope', '$stateParams', function ($scope, $stateP
             videoUrl: 'media/1.mp4'
   },
         {
-            title: 'Un pays ou l’hospitalité révèle un Art de vivre',
+            title: 'Maroc, un pays où l’hospitalité révèle un Art de vivre',
             videoUrl: 'media/2.mp4'
   },
         {
@@ -95,11 +95,11 @@ app.controller('_infoCtrl', ['$scope', '$stateParams', function ($scope, $stateP
             videoUrl: 'media/3.mp4'
   },
         {
-            title: 'Maroc, un pays de tolérance',
+            title: 'Maroc, un pays de Tolérance',
             videoUrl: 'media/4.mp4'
   },
         {
-            title: 'Un pays moderne et  tourné vers l’avenir',
+            title: 'Maroc, Un pays moderne et tourné vers l’avenir',
             videoUrl: 'media/5.mp4'
   }
   ]
