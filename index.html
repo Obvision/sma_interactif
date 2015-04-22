@@ -1,5 +1,5 @@
 <!doctype html>
-<html id="app">
+<html id="app" ng-app="app" ng-controller="coreCtrl">
 
 <head>
 	<meta charset="utf-8" />
@@ -18,7 +18,7 @@
 </head>
 
 
-<body ng-app="app" class="body-style" ng-controller="coreCtrl">
+<body class="body-style">
 	<header class="header-style">
 		<div class="logo-container" align="right"><img src="img/logo_ar.png" width="350px">
 		</div>
@@ -51,7 +51,7 @@
 	<script src="public/production.js"></script>
 	<script src="public/app.js"></script>
 </body>
-<footer class="footer">
+<footer class="footer" ng-hide="$state.is('info') || $state.is('_info')">
 	<img src="img/partenairesSMA.jpg" width="80%">
 </footer>
 

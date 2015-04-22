@@ -317,6 +317,24 @@ li {
 	-moz-animation-name: fadeOut;
 }
 
+.footer.ng-hide {
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeOut;
+	-moz-animation-name: fadeOut;
+}
+
+.footer.ng-hide-remove {
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+}
+
 .acc li {
 	float: left;
 	margin-left: 20px;
@@ -324,4 +342,22 @@ li {
 
 .en-savoir-plus {
 	height: 60px;
+}
+
+.col-md-8 {
+	width: 66.66666667%;
+	float: left
+}
+
+.col-md-4 {
+	width: 33.33333333%;
+	float: left
+}
+
+.img-container img {
+	-webkit-box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+	margin-top: 30px;
+	margin-left: 30px;
 }
