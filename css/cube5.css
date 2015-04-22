@@ -1,204 +1,204 @@
 #cube5-container {
-	position: absolute;
-	top: 70%;
-	left: 0;
-	right: 0;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
 }
 
 #page-cube5-container {
-	cursor: move;
-	top: -108px;
-	left: 43%;
-	position: absolute;
+    cursor: move;
+    top: -108px;
+    left: 43%;
+    position: absolute;
 }
 
 #cube5 {
-	position: relative;
-	width: 100px;
-	height: 100px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cube5.inMotionCube5 {
-	animation: AnimCube5 5s linear infinite;
-	transform-style: preserve-3d;
-	-webkit-animation: AnimCube5 15s linear infinite;
-	-webkit-transform-style: preserve-3d;
-	-moz-animation: AnimCube5 15s linear infinite;
-	-moz-transform-style: preserve-3d;
-	-o-animation: AnimCube5 15s linear infinite;
-	-o-transform-style: preserve-3d;
-	-ms-animation: AnimCube5 15s linear infinite;
-	-ms-transform-style: preserve-3d;
+    animation: AnimCube5 5s linear infinite;
+    transform-style: preserve-3d;
+    -webkit-animation: AnimCube5 15s linear infinite;
+    -webkit-transform-style: preserve-3d;
+    -moz-animation: AnimCube5 15s linear infinite;
+    -moz-transform-style: preserve-3d;
+    -o-animation: AnimCube5 15s linear infinite;
+    -o-transform-style: preserve-3d;
+    -ms-animation: AnimCube5 15s linear infinite;
+    -ms-transform-style: preserve-3d;
 }
 
 #cube5 .cote1 {
-	background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
-	border-color: #3bd6e4;
-	background-size: 100%;
-	z-index: 10;
+    background: url(../img/face-1.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
+    border-color: #3bd6e4;
+    background-size: 100%;
+    z-index: 10;
 }
 
 #cube5 .cote2 {
-	background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
-	border-color: #3bd6e4;
-	background-size: 100%;
-	transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-moz-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-o-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
-	-ms-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    background: url(../img/face-2.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
+    border-color: #3bd6e4;
+    background-size: 100%;
+    transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -webkit-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -moz-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -o-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
+    -ms-transform: translateZ(-50px) translateX(50px) rotateY(90deg);
 }
 
 #cube5 .cote3 {
-	background: -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
-	border-color: #3bd6e4;
-	background-size: 100%;
-	transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-moz-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-o-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
-	-ms-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    background: -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
+    border-color: #3bd6e4;
+    background-size: 100%;
+    transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -webkit-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -moz-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -o-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
+    -ms-transform: translateZ(-50px) translateX(-50px) rotateY(-90deg);
 }
 
 #cube5 .cote4 {
-	background: url(../img/face-4.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
-	border-color: #3bd6e4;
-	background-size: 100%;
-	transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-	-webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-	-moz-transform: translateZ(-50px) translateY(50px) rotateX(90deg);
-	-o-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
-	-ms-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    background: url(../img/face-4.png) no-repeat 5px 4px, -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
+    border-color: #3bd6e4;
+    background-size: 100%;
+    transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    -webkit-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    -moz-transform: translateZ(-50px) translateY(50px) rotateX(90deg);
+    -o-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
+    -ms-transform: translateZ(-50px) translateY(50px) rotateX(-90deg);
 }
 
 #cube5 .cote5 {
-	background: -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
-	border-color: #3bd6e4;
-	background-size: 100%;
-	transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-moz-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-o-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
-	-ms-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    background: -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
+    border-color: #3bd6e4;
+    background-size: 100%;
+    transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -webkit-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -moz-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -o-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
+    -ms-transform: translateZ(-50px) translateY(-50px) rotateX(90deg);
 }
 
 #cube5 .cote6 {
-	background: -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
-	border-color: #3bd6e4;
-	background-size: 100%;
-	transform: translateZ(-100px);
-	-webkit-transform: translateZ(-100px);
-	-moz-transform: translateZ(-100px);
-	-o-transform: translateZ(-100px);
-	-ms-transform: translateZ(-100px);
+    background: -webkit-linear-gradient(bottom, #1eb8ba 0%, #65ecff 100%);
+    border-color: #3bd6e4;
+    background-size: 100%;
+    transform: translateZ(-100px);
+    -webkit-transform: translateZ(-100px);
+    -moz-transform: translateZ(-100px);
+    -o-transform: translateZ(-100px);
+    -ms-transform: translateZ(-100px);
 }
 
 @keyframes AnimCube5 {
-	from {}
-	to {
-		transform-origin: 50% 50%;
-		transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        transform-origin: 50% 50%;
+        transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
 
 @-webkit-keyframes AnimCube5 {
-	from {}
-	to {
-		-webkit-transform-origin: 50% 50%;
-		-webkit-transform: rotateZ(180deg) rotateY(180deg) rotateX(-180deg);
-	}
+    from {}
+    to {
+        -webkit-transform-origin: 50% 50%;
+        -webkit-transform: rotateZ(180deg) rotateY(180deg) rotateX(-180deg);
+    }
 }
 
 @-moz-keyframes AnimCube5 {
-	from {}
-	to {
-		-moz-transform-origin: 50% 50%;
-		-moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        -moz-transform-origin: 50% 50%;
+        -moz-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
 
 @-o-keyframes AnimCube5 {
-	from {}
-	to {
-		-o-transform-origin: 50% 50%;
-		-o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        -o-transform-origin: 50% 50%;
+        -o-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
 
 @-ms-keyframes AnimCube5 {
-	from {}
-	to {
-		-ms-transform-origin: 50% 50%;
-		-ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
-	}
+    from {}
+    to {
+        -ms-transform-origin: 50% 50%;
+        -ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    }
 }
 
 #cube5-data-container .title.ng-hide-remove {
-	-webkit-animation-duration: 5s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 5s;
-	-moz-animation-fill-mode: both;
-	-webkit-animation-name: zoomIn;
-	-moz-animation-name: zoomIn;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 5s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
 }
 
 #cube5-data-container .intro.ng-hide-remove {
-	-webkit-animation-duration: 3s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 3s;
-	-moz-animation-fill-mode: both;
-	-webkit-animation-name: zoomIn;
-	-moz-animation-name: zoomIn;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 3s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
 }
 
 #cube5-data-container .acc.ng-hide-remove {
-	-webkit-animation-duration: 3s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 3s;
-	-moz-animation-fill-mode: both;
-	-webkit-animation-name: fadeInLeft;
-	-moz-animation-name: fadeInLeft;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 3s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
 }
 
 #cube5-data-container .acc.ng-hide {
-	-webkit-animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 1s;
-	-moz-animation-fill-mode: both;
-	-webkit-animation-name: fadeOut;
-	-moz-animation-name: fadeOut;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    -moz-animation-name: fadeOut;
 }
 
 #cube5-data-container .p2.ng-hide-remove {
-	-webkit-animation-duration: 3s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 3s;
-	-moz-animation-fill-mode: both;
-	-webkit-animation-name: fadeIn;
-	-moz-animation-name: fadeIn;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 3s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
 }
 
 #cube5-data-container .part.ng-hide {
-	-webkit-animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 1s;
-	-moz-animation-fill-mode: both;
-	-webkit-animation-name: fadeOut;
-	-moz-animation-name: fadeOut;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    -moz-animation-name: fadeOut;
 }
 
 #cube5-data-container .part.ng-hide-remove {
-	-webkit-animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 1s;
-	-moz-animation-fill-mode: both;
-	-webkit-animation-name: fadeIn;
-	-moz-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
 }
 
 #cube5-data-container h2 {
-	color: #62D5E1;
+    color: #62D5E1;
 }

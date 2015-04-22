@@ -250,7 +250,8 @@ h2 {
 }
 
 .strategy {
-	color: #65ecff;
+	color: #9CE5EC;
+	font-weight: bold;
 }
 
 a {
@@ -308,6 +309,15 @@ li {
 	-moz-animation-name: fadeOut;
 }
 
+.part.ng-hide-remove {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 3s;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+}
+
 .part.ng-hide {
 	-webkit-animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
@@ -360,4 +370,11 @@ li {
 	box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
 	margin-top: 30px;
 	margin-left: 30px;
+	height: 60px;
+}
+
+#carteCube5 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
