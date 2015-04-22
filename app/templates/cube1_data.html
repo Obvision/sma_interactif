@@ -1,55 +1,63 @@
 <div id="cube1-data-container" ng-controller="cube1Ctrl" class="cub1-data">
-    <div drag id="page-cube1-container" class="cube">
-        <div id="cube1" ng-hide="inMotionCube1" ng-class="{inMotionCube1: !inMotionCube1}">
-            <div class="cote6 face"></div>
-            <div class="cote5 face"></div>
-            <div class="cote4 face"></div>
-            <div class="cote3 face"></div>
-            <div class="cote2 face"></div>
-            <div class="cote1 face"></div>
-        </div>
-    </div>
-    <h1 class="title" ng-show="title">Maroc, là où la Culture inspire l’Art</h1>
-    <p class="intro" ng-show="p1">Le Maroc est un pays où l’Art et la culture se confonde, une véritable invitation au voyage, un parfum de la rencontre qui se donne en partage sur plusieurs notes.</p>
-    <div class="part" ng-show="part1">
-        <h2 class="acc" ng-show="p2">Un artisanat à la recherche du beau</h2>
-        <p class="acc" ng-show="p3">Un artisanat aux mille et une facettes, où l’objet pris dans sa dimension humaine est le témoignage le plus authentique de la recherche du beau. </p>
-        <ul class="acc" ng-show="p4">En savoir plus :
-            <li>
-                <a href="#">www.maisonartisan.ma</a>
-            </li>
-            <li><a href="#">www.odco.gov.ma</a>
-            </li>
-            <li><a href="#">www.label-artisanat.ma</a>
-            </li>
-        </ul>
+	<div drag id="page-cube1-container" class="cube">
+		<div id="cube1" ng-hide="inMotionCube1" ng-class="{inMotionCube1: !inMotionCube1}">
+			<div class="cote6 face"></div>
+			<div class="cote5 face"></div>
+			<div class="cote4 face"></div>
+			<div class="cote3 face"></div>
+			<div class="cote2 face"></div>
+			<div class="cote1 face"></div>
+		</div>
+	</div>
+	<h1 class="title" ng-show="title">Maroc, là où la Culture inspire l’Art</h1>
+	<p class="intro" ng-show="p1">Le Maroc est un pays où l’Art et la culture se confonde, une véritable invitation au voyage, un parfum de la rencontre qui se donne en partage sur plusieurs notes.</p>
+	<div class="part" ng-show="part1">
+		<h2 class="acc" ng-show="p2">Un artisanat à la recherche du beau</h2>
+		<p class="acc" ng-show="p3">Un artisanat aux mille et une facettes, où l’objet pris dans sa dimension humaine est le témoignage le plus authentique de la recherche du beau. </p>
+		<div class="acc en-savoir-plus" ng-show="p4">
+			<div>En savoir plus :</div>
+			<ul>
+				<li>
+					<a href="#">www.maisonartisan.ma</a>
+				</li>
+				<li><a href="#">www.odco.gov.ma</a>
+				</li>
+				<li><a href="#">www.label-artisanat.ma</a>
+				</li>
+			</ul>
+		</div>
 
-        <h2 class="acc" ng-show="p5">Un art culinaire fruit de multiples influences</h2>
-        <p class="acc" ng-show="p6">Reconnue comme un art, la cuisine marocaine est le fruit des influences phénicienne, carthaginoise, romaine, arabe, andalouse, turc, française et reste ouverte à d’autres...</p>
-    </div>
+		<h2 class="acc" ng-show="p5">Un art culinaire fruit de multiples influences</h2>
+		<p class="acc" ng-show="p6">Reconnue comme un art, la cuisine marocaine est le fruit des influences phénicienne, carthaginoise, romaine, arabe, andalouse, turc, française et reste ouverte à d’autres...</p>
+	</div>
 
-    <div class="part" ng-show="part2">
-        <h2 class="acc" ng-show="p7">Un Patrimoine matériel et immatériel, d'une grande richesse</h2>
-        <ul class="acc" ng-show="p8">Pour en savoir plus:
-            <li>
-                <a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=article&id=61&Itemid=133">Le Maroc et ses sites et monuments classés</a>
-            </li>
-        </ul>
-
-        <h2 class="acc" ng-show="p9">Une création contemporaine qui se métisse et crée sa propre signature </h2>
-        <p class="acc" ng-show="p10">Qu'il s'agisse des arts plastiques, de la littérature, du cinéma, de la vidéo, du théâtre, de l'architecture, de la mode ou de la musique, l'Art contemporain au Maroc, exprime les contradictions d’une société ouverte au monde qui construit sa signature.</p>
-        <ul class="acc" ng-show="p11">En savoir plus:
-            <li>
-                <a href="http://www.museemohammed6.ma/#section/1">Musée art contemporain</a>
-            </li>
-            <li><a href="http://www.maroc.ma/PortailInst/fr/">Portail national du Maroc</a>
-            </li>
-            <li><a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=frontpage&Itemid=143">Ministère de la Culture</a>
-            </li>
-            <li><a href="http://www.topbladi.com/">Top Bladi</a>
-            </li>
-            <li><a href="http://www.ambafrance-ma.org/institut/">Le Réseau Culturel Français au Maroc</a>
-            </li>
-        </ul>
-    </div>
+	<div class="part" ng-show="part2">
+		<h2 class="acc" ng-show="p7">Un Patrimoine matériel et immatériel, d'une grande richesse</h2>
+		<div class="acc en-savoir-plus" ng-show="p8">
+			<div>En savoir plus:</div>
+			<ul>
+				<li>
+					<a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=article&id=61&Itemid=133">Le Maroc et ses sites et monuments classés</a>
+				</li>
+			</ul>
+		</div>
+		<h2 class="acc" ng-show="p9">Une création contemporaine qui se métisse et crée sa propre signature </h2>
+		<p class="acc" ng-show="p10">Qu'il s'agisse des arts plastiques, de la littérature, du cinéma, de la vidéo, du théâtre, de l'architecture, de la mode ou de la musique, l'Art contemporain au Maroc, exprime les contradictions d’une société ouverte au monde qui construit sa signature.</p>
+		<div class="acc en-savoir-plus" ng-show="p11">
+			<div>En savoir plus:</div>
+			<ul>
+				<li>
+					<a href="http://www.museemohammed6.ma/#section/1">Musée art contemporain</a>
+				</li>
+				<li><a href="http://www.maroc.ma/PortailInst/fr/">Portail national du Maroc</a>
+				</li>
+				<li><a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=frontpage&Itemid=143">Ministère de la Culture</a>
+				</li>
+				<li><a href="http://www.topbladi.com/">Top Bladi</a>
+				</li>
+				<li><a href="http://www.ambafrance-ma.org/institut/">Le Réseau Culturel Français au Maroc</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
