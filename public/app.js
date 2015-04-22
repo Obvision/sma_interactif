@@ -417,10 +417,10 @@ app.controller('cube5Ctrl', ['$scope', '$state', '$timeout', function ($scope, $
 								$timeout(function () {
 									$scope.triggerPart2();
 								}, 5000);
-							}, 2000);
-						}, 2000);
-					}, 2000);
-				}, 2000);
+							}, 5000);
+						}, 5000);
+					}, 5000);
+				}, 5000);
 			}, 2000);
 		}, 2000);
 	}, 3000);
