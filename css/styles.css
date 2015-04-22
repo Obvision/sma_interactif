@@ -326,3 +326,18 @@ li {
     -webkit-animation-name: fadeOut;
     -moz-animation-name: fadeOut;
 }
+
+.acc li {
+    float: left;
+    margin-left: 20px;
+}
+
+.en-savoir-plus {
+    height: 60px;
+}
+
+#carteCube5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

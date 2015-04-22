@@ -27,5 +27,5 @@ app.controller('cube2Ctrl', ['$scope', '$state', '$timeout', function ($scope, $
 				}, 2000);
 			}, 2000);
 		}, 2000);
-	}, 2000);
+	}, 3000);
 }]);

@@ -135,3 +135,70 @@
         -ms-transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
     }
 }
+
+#cube5-data-container .title.ng-hide-remove {
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 5s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
+}
+
+#cube5-data-container .intro.ng-hide-remove {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 3s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
+}
+
+#cube5-data-container .acc.ng-hide-remove {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 3s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+}
+
+#cube5-data-container .acc.ng-hide {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    -moz-animation-name: fadeOut;
+}
+
+#cube5-data-container .p2.ng-hide-remove {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 3s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+}
+
+#cube5-data-container .part.ng-hide {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    -moz-animation-name: fadeOut;
+}
+
+#cube5-data-container .part.ng-hide-remove {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+}
+
+#cube5-data-container h2 {
+    color: #62D5E1;
+}
