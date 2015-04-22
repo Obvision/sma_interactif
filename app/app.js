@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ui.router', 'ngAnimate', 'ngTouch', 'ui.utils', 'hmTouchEvents']);
+var app = angular.module('app', ['ui.router', 'ngAnimate', 'ngTouch', 'ui.utils', 'hmTouchEvents', 'pascalprecht.translate']);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/home");
