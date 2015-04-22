@@ -19,6 +19,14 @@ app.config(['$translateProvider', function ($translateProvider) {
         'PLAN_AZUR': 'Der himmelblaue Plan',
         'PLAN_AZUR_TEXT': 'wurde eingerichtet, um eine Reihe von wirtschaftlich tragfähigen und soziokulturellen Qualitätsunterkünften zu schaffen, die die Prinzipien der nachhaltigen Entwicklung unter den Aspekten des Umweltschutzes respektieren.',
         'A_MINISTER_TOURISME': 'Marokkanisches Tourismusministerium',
+        'CUBE3_TITLE': 'Marokko, ein Land voller Geschichte',
+        'CIVILISATION_TITLE': 'Ein Land, in dem sich Zivilisationen vereinen',
+        'CIVILISATION_TEXT': 'Vom Königreich der Mauren… über das Römische Reich bis hin zur Islamisierung, Marokko ist ein wahrer Schmelztiegel der Zivilisationen, die seine vielfältige Identität geschaffen haben.',
+        'COMPOSANTS_TITLE': 'Ein Land mit vielfältigen Kulturen',
+        'COMPOSANTS_TEXT': 'Es sind die verschiedenen Kulturen Marokkos wie die amazighische, jüdisch-christliche, arabisch-muslimische und afro-saharische, die seine Besonderheit, seine Einzigartigkeit, seine Vielfalt und seinen kulturellen Reichtum prägen.',
+        'REFORMES_TITLE': 'Ein Land, das historische Reformen kennengelernt hat',
+        'REFORMES_TEXT1': 'Gelegen in einer Region, die von den Ereignissen des Arabischen Frühlings durcheinander gewirbelt wurde, hat das Königreich seine Stabilität und seinen sozialen Zusammenhalt gefestigt, indem es politische und bedeutende wirtschaftliche Reformen vorangetrieben hat.',
+        'REFORMES_TEXT2': 'Die neue Verfassung beinhaltet die vollkommene Gleichstellung von Männern und Frauen.',
 
         'EN_SAVOIR_PLUS': 'Mehr Informationen :',
 
@@ -42,8 +50,16 @@ app.config(['$translateProvider', function ($translateProvider) {
         'PLAN_AZUR': 'المخطط الأزرق',
         'PLAN_AZUR_TEXT': 'تم إدراجه لخلق مجموعة سلاسل فندقية ذات جودة عالية، والتي تحترم شروط التطور المستمر في إطار جوانبه البيئية والاقتصادية والسوسيوثقافية',
         'A_MINISTER_TOURISME': 'وزارة السياحة المغربية',
+        'CUBE3_TITLE': 'المغرب ، أرض التاريخ',
+        'CIVILISATION_TITLE': 'المغرب مهد الحضارات',
+        'CIVILISATION_TEXT': 'من أرض المغربية، إلى الرومانية ، إلى الإسلامية، هذا هو المغرب، المهد الحقيقي لحضارات ساهمت في تشكيل هويته الجماعية',
+        'COMPOSANTS_TITLE': 'بلد بأعراق متنوعة',
+        'COMPOSANTS_TEXT': 'من هذه الأعراق المتنوعة بين الأمازيغية، اليهودية المسيحية، العربية الإسلامية، الإفريقية الصحراوية، استطاع المغرب بناء خصوصيته، تفرده، تنوعه وغناه الحضاري',
+        'REFORMES_TITLE': 'بلد عرف إصلاحات تاريخية',
+        'REFORMES_TEXT1': 'مزروع في قلب منطقة ما يعرف بالربيع العربي، إلا أنه استطاع الحفاظ على استقراره وتماسكه الاجتماعي وذلك بالسبق نحو إصلاحات سياسية واقتصادية رائدة',
+        'REFORMES_TEXT2': 'الصياغة الجديدة لدستور جديد تؤكد على مساواة مطلقة بين الرجال والنساء',
 
-        'EN_SAVOIR_PLUS': ': للمزيد من المعلومات',
+        'EN_SAVOIR_PLUS': 'للمزيد من المعلومات',
     });
 
     $translateProvider.preferredLanguage('ar');
