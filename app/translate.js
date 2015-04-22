@@ -27,6 +27,12 @@ app.config(['$translateProvider', function ($translateProvider) {
         'REFORMES_TITLE': 'Ein Land, das historische Reformen kennengelernt hat',
         'REFORMES_TEXT1': 'Gelegen in einer Region, die von den Ereignissen des Arabischen Frühlings durcheinander gewirbelt wurde, hat das Königreich seine Stabilität und seinen sozialen Zusammenhalt gefestigt, indem es politische und bedeutende wirtschaftliche Reformen vorangetrieben hat.',
         'REFORMES_TEXT2': 'Die neue Verfassung beinhaltet die vollkommene Gleichstellung von Männern und Frauen.',
+        'CUBE4_TITLE': 'Marokko, ein Land der Toleranz',
+        'TOLERANCE_TITLE': 'Ein von Toleranz bestimmtes religiöses Modell',
+        'TOLERANCE_TEXT': 'Sein religiöses Modell zeigt mit aller Kraft, dass Traditionen und Islam nicht im Gegensatz zur Moderne und der Entwicklung der Demokratie stehen.',
+        'RME_TITLE': 'Die im Ausland lebenden Marokkaner, eine Gemeinschaft der Botschafter unserer Kultur',
+        'RME_TEXT1': 'Ebenso wie Ibn Batouta, der Forschungsreisende des 12. Jahrhunderts, der in seinem Leben 120.000 km zurücklegte, sind unsere Landsleute heute in die weite Welt ausgewandert und haben eine bedeutende Gemeinschaft geschaffen.',
+        'RME_TEXT2': 'Diese auf ihre Art Suchenden brechen zur Entdeckung eines neuen Landes auf und werden Botschafter unserer Kultur, unseres Erbes und der Toleranz.',
 
         'EN_SAVOIR_PLUS': 'Mehr Informationen :',
 
@@ -58,6 +64,12 @@ app.config(['$translateProvider', function ($translateProvider) {
         'REFORMES_TITLE': 'بلد عرف إصلاحات تاريخية',
         'REFORMES_TEXT1': 'مزروع في قلب منطقة ما يعرف بالربيع العربي، إلا أنه استطاع الحفاظ على استقراره وتماسكه الاجتماعي وذلك بالسبق نحو إصلاحات سياسية واقتصادية رائدة',
         'REFORMES_TEXT2': 'الصياغة الجديدة لدستور جديد تؤكد على مساواة مطلقة بين الرجال والنساء',
+        'CUBE4_TITLE': 'المغرب ، أرض التسامح',
+        'TOLERANCE_TITLE': 'نموذج دين مبني على التسامح',
+        'TOLERANCE_TEXT': 'نموذجه الديني يظهر جليا أن التقاليد والدين الإسلامي لا يتنافيان  البتة مع الحداثة والتطور والديمقراطية',
+        'RME_TITLE': 'المغاربة في الخارج، جالية تلعب دور سفير لثقافتنا',
+        'RME_TEXT1': 'على غرار بن بطوطة، هذا المكتشف المغربي  في القرن 12 الميلادي، والذي جاب قيد حياته 120.000 كلم، فأبناء جاليتنا الآن هاجروا نحو العالم الواسع وشكلوا جالية ذات حضور قوي ووازن',
+        'RME_TEXT2': 'هؤلاء المكتشفين الجدد، انطلقوا في رحلة اكتشاف بلد جديد ، وأصبحوا سفراء لثقافتنا، ولقيمنا المبنية على المشاركة والتسامح',
 
         'EN_SAVOIR_PLUS': 'للمزيد من المعلومات',
     });

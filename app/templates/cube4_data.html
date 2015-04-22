@@ -1,29 +1,29 @@
 <div id="cube4-data-container" ng-controller="cube4Ctrl">
-	<div drag id="page-cube4-container" class="cube" ng-click="cubeClicked(3)" ng-touch="cubeClicked(3)">
-		<div id="cube4" ng-hide="inMotionCube4" ng-class="{inMotionCube4: !inMotionCube4}">
-			<div class="cote6 face"></div>
-			<div class="cote5 face"></div>
-			<div class="cote4 face"></div>
-			<div class="cote3 face"></div>
-			<div class="cote2 face"></div>
-			<div class="cote1 face"></div>
-		</div>
-	</div>
-	<h1 class="title" ng-show="title">Maroc, un pays de Tolérance</h1>
-	<h2 class="acc" ng-show="p1">Un modèle religieux imprégné de tolérance</h2>
-	<p class="acc" ng-show="p2">Son modèle religieux démontre avec force que traditions et islam ne s'opposent pas à la modernité et au développement de la démocratie.</p>
+    <div drag id="page-cube4-container" class="cube" ng-click="cubeClicked(3)" ng-touch="cubeClicked(3)">
+        <div id="cube4" ng-hide="inMotionCube4" ng-class="{inMotionCube4: !inMotionCube4}">
+            <div class="cote6 face"></div>
+            <div class="cote5 face"></div>
+            <div class="cote4 face"></div>
+            <div class="cote3 face"></div>
+            <div class="cote2 face"></div>
+            <div class="cote1 face"></div>
+        </div>
+    </div>
+    <h1 class="title" ng-show="title">{{ 'CUBE4_TITLE' | translate}}</h1>
+    <h2 class="acc" ng-show="p1">{{ 'TOLERANCE_TITLE' | translate}}</h2>
+    <p class="acc" ng-show="p2">{{ 'TOLERANCE_TEXT' | translate}}</p>
 
-	<h2 class="acc" ng-show="p3">Les RME, une communauté ambassadrice de  notre culture</h2>
-	<p class="acc" ng-show="p4">A l’instar d’Ibn Batouta, cet explorateur marocain du 12<sup>ème</sup> siècle qui a parcouru en une vie 120 000 Kms, nos compatriotes aujourd’hui, ont émigrés vers le vaste monde créant une communauté qui est une valeur forte.</p>
-	<p class="acc" ng-show="p5">Ces explorateurs d’un autre genre partent à la découverte d’un nouveau pays et deviennent les ambassadeurs de notre culture, de nos valeurs de partage et de tolérance.</p>
-	<div class="acc en-savoir-plus" ng-show="p6">
-		<div>En savoir plus:</div>
-		<ul>
-			<li>
-				<a href="www.marocainsdumonde.gov.ma">
+    <h2 class="acc" ng-show="p3">{{ 'RME_TITLE' | translate}}</h2>
+    <p class="acc" ng-show="p4">{{ 'RME_TEXT1' | translate}}</p>
+    <p class="acc" ng-show="p5">{{ 'RME_TEXT2' | translate}}</p>
+    <div class="acc en-savoir-plus" ng-show="p6">
+        <div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
+        <ul>
+            <li>
+                <a href="www.marocainsdumonde.gov.ma">
             www.marocainsdumonde.gov.ma
             </a>
-			</li>
-		</ul>
-	</div>
+            </li>
+        </ul>
+    </div>
 </div>
