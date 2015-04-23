@@ -1,37 +1,37 @@
 <div id="cube3-data-container" ng-controller="cube3Ctrl">
-    <div drag id="page-cube3-container" class="cube" ng-click="cubeClicked(2)" ng-touch="cubeClicked(2)">
-        <div id="cube3" ng-hide="inMotionCube3" ng-class="{inMotionCube3: !inMotionCube3}">
-            <div class="cote6 face"></div>
-            <div class="cote5 face"></div>
-            <div class="cote4 face"></div>
-            <div class="cote3 face"></div>
-            <div class="cote2 face"></div>
-            <div class="cote1 face"></div>
-        </div>
-    </div>
-    <h1 class="title" ng-show="title">{{ 'CUBE3_TITLE' | translate }}</h1>
-    <div class="col-md-8">
-        <h2 class="acc" ng-show="p2">{{ 'CIVILISATION_TITLE' | translate }}</h2>
-        <p class="acc" ng-show="p3">{{ 'CIVILISATION_TEXT' | translate }}</p>
+	<div drag id="page-cube3-container" class="cube" ng-click="cubeClicked(2)" ng-touch="cubeClicked(2)">
+		<div id="cube3" ng-hide="inMotionCube3" ng-class="{inMotionCube3: !inMotionCube3}">
+			<div class="cote6 face"></div>
+			<div class="cote5 face"></div>
+			<div class="cote4 face"></div>
+			<div class="cote3 face"></div>
+			<div class="cote2 face"></div>
+			<div class="cote1 face"></div>
+		</div>
+	</div>
+	<h1 class="title" ng-show="title">{{ 'CUBE3_TITLE' | translate }}</h1>
+	<div class="col-md-8">
+		<h2 class="acc" ng-show="p2">{{ 'CIVILISATION_TITLE' | translate }}</h2>
+		<p class="acc" ng-show="p3">{{ 'CIVILISATION_TEXT' | translate }}</p>
 
-        <h2 class="acc" ng-show="p4">{{ 'COMPOSANTS_TITLE' | translate }}</h2>
-        <p class="acc" ng-show="p5">{{ 'COMPOSANTS_TEXT' | translate }}</p>
+		<h2 class="acc" ng-show="p4">{{ 'COMPOSANTS_TITLE' | translate }}</h2>
+		<p class="acc" ng-show="p5">{{ 'COMPOSANTS_TEXT' | translate }}</p>
 
-        <h2 class="acc" ng-show="p6">{{ 'REFORMES_TITLE' | translate }}</h2>
-        <p class="acc" ng-show="p7">{{ 'REFORMES_TEXT1' | translate }}</p>
-        <p class="acc" ng-show="p8">{{ 'REFORMES_TEXT2' | translate }}</p>
-        <div class="acc en-savoir-plus" ng-show="p9">
-            <div>{{ 'EN_SAVOIR_PLUS' | translate }}</div>
-            <ul>
-                <li>
-                    <a href="http://www.maroc.ma/fr">
+		<h2 class="acc" ng-show="p6">{{ 'REFORMES_TITLE' | translate }}</h2>
+		<p class="acc" ng-show="p7">{{ 'REFORMES_TEXT1' | translate }}</p>
+		<p class="acc" ng-show="p8">{{ 'REFORMES_TEXT2' | translate }}</p>
+		<div class="acc en-savoir-plus" ng-show="p9">
+			<div>{{ 'EN_SAVOIR_PLUS' | translate }}</div>
+			<ul>
+				<li>
+					<a href="http://www.maroc.ma/fr">
             http://www.maroc.ma/fr
             </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="img-container col-md-4">
-        <img class="acc" src="img/cube3.jpg" width="100%" ng-show="p6">
-    </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="img-container col-md-4">
+		<img class="acc" src="img/cube3.jpg" width="100%" ng-show="p2">
+	</div>
 </div>

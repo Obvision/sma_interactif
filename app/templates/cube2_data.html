@@ -1,34 +1,34 @@
 <div id="cube2-data-container" ng-controller="cube2Ctrl">
-    <div drag id="page-cube2-container" class="cube">
-        <div id="cube2" ng-hide="inMotionCube2" ng-class="{inMotionCube2: !inMotionCube2}">
-            <div class="cote6 face"></div>
-            <div class="cote5 face"></div>
-            <div class="cote4 face"></div>
-            <div class="cote3 face"></div>
-            <div class="cote2 face"></div>
-            <div class="cote1 face"></div>
-        </div>
-    </div>
-    <h1 ng-show="title" class="title">{{ 'CUBE2_TITLE' | translate}}</h1>
-    <div class="col-md-8">
-        <h2 class="acc" ng-show="p1">{{ 'HOSPITALITE_TITLE' | translate}}</h2>
-        <p class="acc" ng-show="p2">{{ 'HOSPITALITE_TEXT' | translate}}</p>
+	<div drag id="page-cube2-container" class="cube">
+		<div id="cube2" ng-hide="inMotionCube2" ng-class="{inMotionCube2: !inMotionCube2}">
+			<div class="cote6 face"></div>
+			<div class="cote5 face"></div>
+			<div class="cote4 face"></div>
+			<div class="cote3 face"></div>
+			<div class="cote2 face"></div>
+			<div class="cote1 face"></div>
+		</div>
+	</div>
+	<h1 ng-show="title" class="title">{{ 'CUBE2_TITLE' | translate}}</h1>
+	<div class="col-md-8">
+		<h2 class="acc" ng-show="p1">{{ 'HOSPITALITE_TITLE' | translate}}</h2>
+		<p class="acc" ng-show="p2">{{ 'HOSPITALITE_TEXT' | translate}}</p>
 
-        <h2 class="acc" ng-show="p3">{{ 'TOURISME_TITLE' | translate}}</h2>
-        <p class="acc" ng-show="p4">{{ 'TOURISME_TEXT' | translate}}</p>
-        <p class="acc" ng-show="p5"><strong>{{ 'PLAN_AZUR' | translate}}</strong> {{ 'PLAN_AZUR_TEXT' | translate}}</p>
-        <div class="acc en-savoir-plus" ng-show="p6">
-            <div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
-            <ul>
-                <li>
-                    <a href="http://www.tourisme.gov.ma/francais/2-Vision2010-Avenir/2-chantiers/2-Produit/produit_balneaire.htm">
+		<h2 class="acc" ng-show="p3">{{ 'TOURISME_TITLE' | translate}}</h2>
+		<p class="acc" ng-show="p4">{{ 'TOURISME_TEXT' | translate}}</p>
+		<p class="acc" ng-show="p5"><strong>{{ 'PLAN_AZUR' | translate}}</strong> {{ 'PLAN_AZUR_TEXT' | translate}}</p>
+		<div class="acc en-savoir-plus" ng-show="p6">
+			<div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
+			<ul>
+				<li>
+					<a href="http://www.tourisme.gov.ma/francais/2-Vision2010-Avenir/2-chantiers/2-Produit/produit_balneaire.htm">
             {{ 'A_MINISTER_TOURISME' | translate}}
             </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="img-container col-md-4">
-        <img class="acc" src="img/cube2.jpg" width="100%" ng-show="p6">
-    </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="img-container col-md-4">
+		<img class="acc" src="img/cube2.jpg" width="100%" ng-show="p2">
+	</div>
 </div>

@@ -1,68 +1,68 @@
 <div id="cube1-data-container" ng-controller="cube1Ctrl" class="cub1-data">
-    <div drag id="page-cube1-container" class="cube">
-        <div id="cube1" ng-hide="inMotionCube1" ng-class="{inMotionCube1: !inMotionCube1}">
-            <div class="cote6 face"></div>
-            <div class="cote5 face"></div>
-            <div class="cote4 face"></div>
-            <div class="cote3 face"></div>
-            <div class="cote2 face"></div>
-            <div class="cote1 face"></div>
-        </div>
-    </div>
-    <h1 class="title" ng-show="title">{{ 'CUBE1_TITLE' | translate}}</h1>
-    <p class="intro" ng-show="p1">{{ 'CUBE1_INTRO' | translate}}</p>
-    <div class="col-md-8">
-        <div class="part" ng-show="part1">
-            <h2 class="acc" ng-show="p2">{{ 'ARTISANAT_TITLE' | translate}}</h2>
-            <p class="acc" ng-show="p3">{{ 'ARTISANAT_TEXT' | translate}}</p>
-            <div class="acc en-savoir-plus" ng-show="p4">
-                <div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
-                <ul>
-                    <li>
-                        <a href="#">www.maisonartisan.ma</a>
-                    </li>
-                    <li><a href="#">www.odco.gov.ma</a>
-                    </li>
-                    <li><a href="#">www.label-artisanat.ma</a>
-                    </li>
-                </ul>
-            </div>
+	<div drag id="page-cube1-container" class="cube">
+		<div id="cube1" ng-hide="inMotionCube1" ng-class="{inMotionCube1: !inMotionCube1}">
+			<div class="cote6 face"></div>
+			<div class="cote5 face"></div>
+			<div class="cote4 face"></div>
+			<div class="cote3 face"></div>
+			<div class="cote2 face"></div>
+			<div class="cote1 face"></div>
+		</div>
+	</div>
+	<h1 class="title" ng-show="title">{{ 'CUBE1_TITLE' | translate}}</h1>
+	<p class="intro" ng-show="p1">{{ 'CUBE1_INTRO' | translate}}</p>
+	<div class="part" ng-show="part1">
+		<h2 class="acc" ng-show="p2">{{ 'ARTISANAT_TITLE' | translate}}</h2>
+		<p class="acc" ng-show="p3">{{ 'ARTISANAT_TEXT' | translate}}</p>
+		<div class="acc en-savoir-plus" ng-show="p4">
+			<div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
+			<ul>
+				<li>
+					<a href="#">www.maisonartisan.ma</a>
+				</li>
+				<li><a href="#">www.odco.gov.ma</a>
+				</li>
+				<li><a href="#">www.label-artisanat.ma</a>
+				</li>
+			</ul>
+		</div>
 
-            <h2 class="acc" ng-show="p5">{{ 'CUISINE_TITLE' | translate}}</h2>
-            <p class="acc" ng-show="p6">{{ 'CUISINE_TEXT' | translate}}</p>
-        </div>
+		<h2 class="acc" ng-show="p5">{{ 'CUISINE_TITLE' | translate}}</h2>
+		<p class="acc" ng-show="p6">{{ 'CUISINE_TEXT' | translate}}</p>
+	</div>
 
-        <div class="part" ng-show="part2">
-            <h2 class="acc" ng-show="p7">{{ 'PATRIMOINE_TITLE' | translate}}</h2>
-            <div class="acc en-savoir-plus" ng-show="p8">
-                <div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
-                <ul>
-                    <li>
-                        <a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=article&id=61&Itemid=133">{{ 'A_MONUMENTS_DU_MAROC' | translate}}</a>
-                    </li>
-                </ul>
-            </div>
-            <h2 class="acc" ng-show="p9">{{ 'CONTEMPORAIN_TITLE' | translate}}</h2>
-            <p class="acc" ng-show="p10">{{ 'CONTEMPORAIN_TEXT' | translate}}</p>
-            <div class="acc en-savoir-plus" ng-show="p11">
-                <div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
-                <ul>
-                    <li>
-                        <a href="http://www.museemohammed6.ma/#section/1">Musée art contemporain</a>
-                    </li>
-                    <li><a href="http://www.maroc.ma/PortailInst/fr/">Portail national du Maroc</a>
-                    </li>
-                    <li><a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=frontpage&Itemid=143">Ministère de la Culture</a>
-                    </li>
-                    <li><a href="http://www.topbladi.com/">Top Bladi</a>
-                    </li>
-                    <li><a href="http://www.ambafrance-ma.org/institut/">Le Réseau Culturel Français au Maroc</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="img-container col-md-4">
-        <img class="acc" src="img/cube1.jpg" width="100%" ng-show="p11">
-    </div>
+	<div class="part" ng-show="part2">
+		<div class="col-md-8">
+			<h2 class="acc" ng-show="p7">{{ 'PATRIMOINE_TITLE' | translate}}</h2>
+			<div class="acc en-savoir-plus" ng-show="p8">
+				<div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
+				<ul>
+					<li>
+						<a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=article&id=61&Itemid=133">{{ 'A_MONUMENTS_DU_MAROC' | translate}}</a>
+					</li>
+				</ul>
+			</div>
+			<h2 class="acc" ng-show="p9">{{ 'CONTEMPORAIN_TITLE' | translate}}</h2>
+			<p class="acc" ng-show="p10">{{ 'CONTEMPORAIN_TEXT' | translate}}</p>
+			<div class="acc en-savoir-plus" ng-show="p11">
+				<div>{{ 'EN_SAVOIR_PLUS' | translate}}</div>
+				<ul>
+					<li>
+						<a href="http://www.museemohammed6.ma/#section/1">Musée art contemporain</a>
+					</li>
+					<li><a href="http://www.maroc.ma/PortailInst/fr/">Portail national du Maroc</a>
+					</li>
+					<li><a href="http://www.minculture.gov.ma/fr/index.php?option=com_content&view=frontpage&Itemid=143">Ministère de la Culture</a>
+					</li>
+					<li><a href="http://www.topbladi.com/">Top Bladi</a>
+					</li>
+					<li><a href="http://www.ambafrance-ma.org/institut/">Le Réseau Culturel Français au Maroc</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="img-container col-md-4">
+		<img class="acc" src="img/cube1.jpg" width="100%" ng-show="p11">
+	</div>
 </div>
